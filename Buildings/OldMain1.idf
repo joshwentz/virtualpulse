@@ -1,0 +1,40 @@
+Version, 7.1.0;   
+  
+Building,
+  OldMain,  !- Name 
+  0.0000,  !- North Axis [Sketchup Model North = True North]
+  City,  !- Terrain [IDF Editor Default = City][Sketchup Default = Suburbs]
+  0.0400,  !- Loads Convergence Tolerance Value [Watts]
+  0.2000,  !- Temperature Convergence Tolerance Value [deg C]
+  FullInteriorAndExterior,  !- Solar Distribution [Space must be convex for ext & int] 
+  25,  !- Max Number of Warmup Days 
+  6;  !- Min Number of Warmup Days 
+
+GlobalGeometryRules,  !- Previously called SurfaceGeometry
+  UpperLeftCorner,  !- Starting Vertex Position 
+  Counterclockwise,  !- Vertex Entry Direction 
+  Relative,  !- Coordinate System [IDF Editor Default = relative][Sketchup Default = WORLD]
+  Relative;  !- Daylighting Reference Point Coordinate System 
+
+SimulationControl, !- Previously called UseWeatherFile
+  Yes,  !- Do Zone Sizing Calculation 
+  Yes,  !- Do System Sizing Calculation 
+  Yes,  !- Do Plant Sizing Calculation 
+  No,  !- Run Simulation for Sizing Periods 
+  Yes;  !- Run Simulation for Weather File Run Periods 
+  
+RunPeriod,
+  ,  !- Name [Default = weather file title]
+  1, !- Begin Month  
+  1, !- Begin Day of Month 
+  12, !- End Month 
+  31, !- End Day of Month 
+  Sunday;  !- Day of Week for Start Day 
+ 
+OutputControl:Table:Style,
+  HTML; !- Column Separator
+ 
+Output:Table:SummaryReports,
+  AnnualBuildingUtilityPerformanceSummary,  !- Report Name
+  InputVerificationandResultsSummary,  
+  ClimaticDataSummary,         

@@ -1,0 +1,16 @@
+eplusout.eso
+eplusout.csv
+Outdoor Dry Bulb
+Zone/Sys Air Temperature
+Zone Mean Radiant Temperature
+Zone Operative Temperature
+Zone Air Humidity Ratio
+Zone Air Relative Humidity
+Time Not Comfortable Summer Or Winter Clothes
+Zone/Sys Sensible Cooling Rate
+Zone/Sys Sensible Heating Rate
+Heating Coil Rate
+DX Coil Total Cooling Rate
+Time Heating Setpoint Not Met While Occupied
+Time Cooling Setpoint Not Met While Occupied
+0

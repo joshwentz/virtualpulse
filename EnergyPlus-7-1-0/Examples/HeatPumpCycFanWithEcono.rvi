@@ -1,0 +1,28 @@
+eplusout.eso
+eplusout.csv
+Outdoor Dry Bulb
+Zone/Sys Air Temperature
+Zone Air Relative Humidity
+Zone/Sys Sensible Heating Rate
+Zone/Sys Sensible Cooling Rate
+Unitary Heat Pump Fan Part-Load Ratio
+Unitary Heat Pump Compressor Part-Load Ratio
+Fan Electric Power
+DX Coil Total Cooling Rate
+DX Coil Sensible Cooling Rate
+DX Cooling Coil Electric Power
+DX Coil Total Heating Rate
+DX Heating Coil Electric Power
+DX Heating Coil Electric Defrost Power
+Heating Coil Rate
+Heating Coil Gas Consumption Rate
+OUTSIDE AIR INLET NODE,System Node MassFlowRate
+Outdoor Air Mixer Inlet Node,System Node MassFlowRate
+Mixed Air Node,System Node MassFlowRate
+Air Loop Outlet Node,System Node MassFlowRate
+OUTSIDE AIR INLET NODE,System Node Temp
+Outdoor Air Mixer Inlet Node,System Node Temp
+Mixed Air Node,System Node Temp
+Air Loop Outlet Node,System Node Temp
+Zone People Number Of Occupants
+0

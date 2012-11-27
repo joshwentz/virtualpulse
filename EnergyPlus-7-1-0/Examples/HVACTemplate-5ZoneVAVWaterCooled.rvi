@@ -1,0 +1,27 @@
+eplusout.eso
+eplusout.csv
+Outdoor Dry Bulb
+Zone/Sys Air Temperature
+Zone Mean Radiant Temperature
+Zone Operative Temperature
+Zone Air Humidity Ratio
+Zone Air Relative Humidity
+Time Not Comfortable Summer Or Winter Clothes
+VAV Terminal Damper Position
+Zone/Sys Sensible Cooling Rate
+Zone/Sys Sensible Heating Rate
+Total Water Heating Coil Rate
+Total Water Cooling Coil Rate
+Sensible Water Cooling Coil Rate
+Plant Loop OutletNode Temperature
+Chiller Evap Heat Trans Rate
+Chiller Cond Heat Trans Rate
+Chiller Electric Power
+Chiller COP
+Boiler Heating Output Rate
+Boiler Gas Consumption Rate
+Tower Heat Transfer
+Tower Fan Electric Power
+Time Heating Setpoint Not Met While Occupied
+Time Cooling Setpoint Not Met While Occupied
+0

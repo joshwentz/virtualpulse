@@ -1,0 +1,27 @@
+  Processing Data Dictionary (Energy+.idd) File -- Complete
+  Maximum number of Alpha Args=        4500
+  Maximum number of Numeric Args=        3200
+  Number of Object Definitions=         666
+  Number of Section Definitions=           2
+  Processing Input Data File (in.idf) -- Start
+      1 ! EMAIL_ADDRESS=
+      2 ! BUILDING_DESCRIPTION=BuildChicago
+      3 ! STATE=
+      4 ! CITY=
+      5 ! BUILDING_TYPE=Public Assembly
+      6 ! NUMBER_OF_FLOORS=5
+      7 ! TOTAL_FLOOR_AREA=694
+      8 ! ROOF_TYPE=Insulation Entirely above Deck
+      9 ! WALL_TYPE=Steel-Framed
+     10 ! WINDOWS=4
+  Processing Input Data File (in.idf) -- Complete
+  Number of IDF "Lines"=           0
+  Maximum number of Alpha IDF Args=           0
+  Maximum number of Numeric IDF Args=           0
+  Number of IDF "Lines"=           0
+  Number of Defaulted Fields=           0
+  Number of Fields with Defaults=           0
+  Number of Autosized Fields=           0
+  Number of Autosizable Fields =           0
+  Number of Autocalculated Fields=           0
+  Number of Autocalculatable Fields =           0

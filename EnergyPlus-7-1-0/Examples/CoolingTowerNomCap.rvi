@@ -1,0 +1,30 @@
+eplusout.eso
+eplusout.csv
+Zone/Sys Air Temperature
+Plant Loop Cooling Demand
+Plant Loop Heating Demand
+BIG CHILLER,Chiller Electric Power
+BIG CHILLER,Chiller Evap Heat Trans Rate
+BIG CHILLER,Chiller Cond Heat Trans Rate
+BIG CHILLER,Chiller Cond Water Inlet Temp
+BIG CHILLER,Chiller Cond Water Outlet Temp
+BIG CHILLER,Chiller Cond Water Mass Flow Rate
+BIG TOWER1,Tower Water Inlet Temp
+BIG TOWER2,Tower Water Inlet Temp
+BIG TOWER1,Tower Water Outlet Temp
+BIG TOWER2,Tower Water Outlet Temp
+BIG TOWER1,Tower Water Mass Flow Rate
+BIG TOWER2,Tower Water Mass Flow Rate
+BIG TOWER1,Tower Heat Transfer
+BIG TOWER2,Tower Heat Transfer
+BIG TOWER1,Tower Fan Electric Power
+BIG TOWER2,Tower Fan Electric Power
+BIG TOWER1,Tower Fan Electric Consumption
+BIG TOWER2,Tower Fan Electric Consumption
+Environment,Outdoor Dry Bulb
+Environment,Outdoor Wet Bulb
+Environment,Outdoor Barometric Pressure
+Environment,Outdoor Humidity Ratio
+Condenser Loop Inlet Temperature
+Condenser Loop Outlet Temperature
+0

@@ -1,0 +1,80 @@
+EP-COMPARE,GRAPH DETAILS DATA - DO NOT MODIFY,isBarForEveryValue,isStackedBarForEachColumn,isStackedBarForEachRow,is100StackedBarForEachEachColumn,is100StackedBarForEachEachRow,isSideBySideForEachColumn,isSideBySideForEachRow,isSideBySideForTotals,isMonthlyLineForEachColumn,numBottomRowsToExclude,numTopRowsToExclude,numRightColumnsToExclude,numLeftColumnsToExclude,isUnusualTable,isVariableRowCount,isMultipleInstancePerFile,Last Column
+Report,Subtable,Show simple bar graphs for every individual value in table ,Stacked bar of values from each column,Stacked bar of values from each row,100% stacked bar of values from each column,100% stacked bar of values from each row,Side-by-side bar of values from each column,Side-by-side bar of values from each row,Side-by-side bar of each value in total section across instance of report in file,Monthly line graph for values from each column,Number of bottom rows to exclude (when using multiple values),"Number of top rows to exclude (not including label, when using multiple values)",Number of columns at right to exclude (when using multiple values),"Number of columns at left to exclude (not including label, when using multiple values)",Unusual table (Special rules),Variable Row Count,Multiple Instances Per File,Last Column
+AnnualBuildingUtilityPerformanceSummary,Site and Source Energy,x,,,,,x,x,,,,,,,,,,L
+AnnualBuildingUtilityPerformanceSummary,Source to Site Energy Conversion Factors,x,,,,,x,,,,,,,,,,,L
+AnnualBuildingUtilityPerformanceSummary,Building Area,x,,,,,x,,,,,1,,,,,,L
+AnnualBuildingUtilityPerformanceSummary,End Uses,,x,x,x,x,x,x,,,2,,1,,,,,L
+AnnualBuildingUtilityPerformanceSummary,End Uses By Subcategory,,x,x,x,x,x,x,,,,,1,,,,,L
+AnnualBuildingUtilityPerformanceSummary,Utility Use Per Conditioned Floor Area,x,x,x,x,x,x,x,,,1,,1,,,,,L
+AnnualBuildingUtilityPerformanceSummary,Utility Use Per Total Floor Area,x,x,x,x,x,x,x,,,1,,1,,,,,L
+AnnualBuildingUtilityPerformanceSummary,Electric Loads Satisfied,x,,,,,,,,,,,,,x,,,L
+AnnualBuildingUtilityPerformanceSummary,On-Site Thermal Sources,x,,,,,x,x,,,1,,,,,,,L
+AnnualBuildingUtilityPerformanceSummary,Water Source Summary,x,,,,,,,,,,,,,x,,,L
+AnnualBuildingUtilityPerformanceSummary,Comfort and Setpoint Not Met Summary,x,,,,,x,,,,,,,,,,,L
+InputVerificationandResultsSummary,General,x,,,,,,,,,,,,,,,,L
+InputVerificationandResultsSummary,Window-Wall Ratio,x,,,,,x,x,,,1,,,1,,,,L
+InputVerificationandResultsSummary,Skylight-Roof Ratio,x,,,,,x,,,,1,,,,,,,L
+InputVerificationandResultsSummary,Zone Summary,,x,,x,,x,x,,,3,,,,,x,,L
+DemandEndUseComponentsSummary,End Uses,,x,x,x,x,x,x,,,2,1,1,,,,,L
+DemandEndUseComponentsSummary,End Uses By Subcategory,,x,x,x,x,x,x,,,,,1,,,,,L
+ClimaticDataSummary,SizingPeriod:DesignDay,x,,,,,,,,,,,,,,x,,L
+ClimaticDataSummary,Weather Statistics File,x,,,,,,,,,,,,,,x,,L
+EnvelopeSummary,Opaque Exterior,,,,,,x,,,,,,,,,x,,L
+EnvelopeSummary,Fenestration,,,,,,x,,,,3,,,,,x,,L
+ShadingSummary,Sunlit Fraction,,,,,,x,x,,,,,,,,x,,L
+ShadingSummary,Window Control,,,,,,x,,,,,,,,,x,,L
+LightingSummary,Interior Lighting,,,,,,x,,,,1,,,,,x,,L
+LightingSummary,Daylighting,,,,,,x,,,,,,,,,x,,L
+LightingSummary,Exterior Lighting,,,,,,x,,,,,,,,,x,,L
+EquipmentSummary,Central Plant,,,,,,x,,,,,,,,,x,,L
+EquipmentSummary,Cooling Coils,,,,,,x,,,,,,,,,x,,L
+EquipmentSummary,Heating Coils,,,,,,x,,,,,,,,,x,,L
+EquipmentSummary,Fans,,,,,,x,,,,,,,,,x,,L
+EquipmentSummary,Pumps,,,,,,x,,,,,,,,,x,,L
+EquipmentSummary,Service Water Heating,,,,,,x,,,,,,,,,x,,L
+HVACSizingSummary,Zone Cooling,,,,,,x,,,,,,,,,x,,L
+HVACSizingSummary,Zone Heating,,,,,,x,,,,,,,,,x,,L
+HVACSizingSummary,System Design Air Flow Rates,,,,,,x,x,,,,,,,,x,,L
+SystemSummary,Economizer,,,,,,x,,,,,,,,,x,,L
+SystemSummary,Demand Controlled Ventilation using Controller:MechanicalVentilation,,,,,,x,,,,,,,,,x,,L
+SystemSummary,Time Not Comfortable Based on Simple ASHRAE 55-2004,,,,,,x,x,,,1,,,,,x,,L
+SystemSummary,Time Setpoint Not Met,,,,,,x,x,,,1,,,,,x,,L
+OutdoorAirSummary,Average Outdoor Air During Occupied Hours,,,,,,x,,,,,,,,,x,,L
+OutdoorAirSummary,Minimum Outdoor Air During Occupied Hours,,,,,,x,,,,,,,,,x,,L
+ObjectCountSummary,Surfaces by Class,x,,,,,x,x,,,,,,,,,,L
+ObjectCountSummary,HVAC,x,,,,,x,,,,,,,,,,,L
+ObjectCountSummary,Input Fields,x,,,,,x,,,,,,,,,,,L
+ComponentSizingSummary,AirTerminal:SingleDuct:VAV:Reheat,,,,,,x,,,,,,,,,x,,L
+ComponentSizingSummary,Coil:Heating:Gas,,,,,,x,,,,,,,,,x,,L
+ComponentSizingSummary,Branch,,,,,,x,,,,,,,,,x,,L
+ComponentSizingSummary,AirLoopHVAC,,,,,,x,,,,,,,,,x,,L
+ComponentSizingSummary,Controller:OutdoorAir,,,,,,x,,,,,,,,,x,,L
+ComponentSizingSummary,Coil:Cooling:DX:TwoSpeed,,,,,,x,,,,,,,,,x,,L
+ComponentSizingSummary,Fan:VariableVolume,,,,,,x,,,,,,,,,x,,L
+ZoneCoolingSummaryMonthly,,,,,,,,,x,x,4,,,,,,x,L
+ZoneHeatingSummaryMonthly,,,,,,,,,x,x,4,,,,,,x,L
+ZoneElectricSummaryMonthly,,,,,,,,,x,x,4,,,,,,x,L
+SpaceGainsMonthly,,,,,,,,,x,x,4,,,,,,x,L
+PeakSpaceGainsMonthly,,,,,,,,,x,x,4,,,,,,x,L
+SpaceGainComponentsAtCoolingPeakMonthly,,,,,,,,,x,x,4,,,,,,x,L
+EnergyConsumptionElectricityNaturalGasMonthly,,,,,,,,,x,x,4,,,,,,x,L
+EndUseEnergyConsumptionElectricityMonthly,,,,,,,,,x,x,4,,,,,,x,L
+EndUseEnergyConsumptionNaturalGasMonthly,,,,,,,,,x,x,4,,,,,,x,L
+PeakEnergyEndUseElectricityPart1Monthly,,,,,,,,,x,x,4,,,,,,x,L
+PeakEnergyEndUseElectricityPart2Monthly,,,,,,,,,x,x,4,,,,,,x,L
+ElectricComponentsOfPeakDemandMonthly,,,,,,,,,x,x,4,,,,,,x,L
+PeakEnergyEndUseNaturalGasMonthly,,,,,,,,,x,x,4,,,,,,x,L
+SetpointsNotMetWithTemperaturesMonthly,,,,,,,,,x,x,4,,,,,,x,L
+ComfortReportSimple55Monthly,,,,,,,,,x,x,4,,,,,,x,L
+OccupantComfortDataSummaryMonthly,,,,,,,,,x,x,4,,,,,,x,L
+DXReportMonthly,,,,,,,,,x,x,4,,,,,,x,L
+WindowReportMonthly,,,,,,,,,x,x,4,,,,,,x,L
+WindowEnergyReportMonthly,,,,,,,,,x,x,4,,,,,,x,L
+WindowZoneSummaryMonthly,,,,,,,,,x,x,4,,,,,,x,L
+WindowEnergyZoneSummaryMonthly,,,,,,,,,x,x,4,,,,,,x,L
+FanReportMonthly,,,,,,,,,x,x,4,,,,,,x,L
+ZoneTemperatureOscillationReportMonthly,,,,,,,,,x,x,4,,,,,,x,L
+AirLoopSystemEnergyAndWaterUseMonthly,,,,,,,,,x,x,4,,,,,,x,L
+AirLoopSystemComponentLoadsMonthly,,,,,,,,,x,x,4,,,,,,x,L
+AirLoopSystemComponentEnergyUseMonthly,,,,,,,,,x,x,4,,,,,,x,L
+MechanicalVentilationLoadsMonthly,,,,,,,,,x,x,4,,,,,,x,L

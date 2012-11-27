@@ -1,0 +1,15 @@
+eplusout.eso
+eplusout.csv
+Zone/Sys Air Temperature
+Zone/Sys Sensible Cooling Rate
+Zone/Sys Sensible Heating Rate
+Zone Air Humidity Ratio
+System Node MassFlowRate
+System Node Temp
+System Node Humidity Ratio
+Window AC Total Zone Cooling Rate
+Window AC Sensible Zone Cooling Rate
+Window AC Electric Power
+Window AC Compressor Part-Load Ratio
+Window AC Fan Part-Load Ratio
+0

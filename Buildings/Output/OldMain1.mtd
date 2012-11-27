@@ -1,0 +1,22 @@
+
+ Meters for 6,Site:Carbon Equivalent Pollution From NOx [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 27,Site:Carbon Equivalent Pollution From CH4 [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 28,Site:Carbon Equivalent Pollution From CO2 [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Carbon Equivalent Pollution From NOx
+  Site:Carbon Equivalent Pollution From CH4
+  Site:Carbon Equivalent Pollution From CO2
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Carbon Equivalent Pollution From NOx
+  Site:Carbon Equivalent Pollution From CH4
+  Site:Carbon Equivalent Pollution From CO2

@@ -1,0 +1,47 @@
+eplusout.eso
+eplusout.csv
+Outdoor Dry Bulb
+Outdoor Relative Humidity
+Zone Mean Air Temperature
+Zone Air Relative Humidity
+SUBFREEZER,Zone Chillers Water Removed from Zone Air Rate
+FREEZER_1,Zone Chillers Water Removed from Zone Air Rate
+COOLER_2,Zone Chillers Water Removed from Zone Air Rate
+Zone Chillers Latent  Cooling Rate
+Zone Chillers Sensible Heat Transfer Rate
+LowTemp_1Condenser,Refrigeration Chiller System Condenser Total Recovered Heat Rate
+Freezer_1AirChiller_1,Air Chiller Frost Accumulation
+Freezer_1AirChiller_2,Air Chiller Frost Accumulation
+Freezer_1AirChiller_3,Air Chiller Frost Accumulation
+Freezer_1AirChiller_4,Air Chiller Frost Accumulation
+Freezer_1AirChiller_5,Air Chiller Frost Accumulation
+Freezer_1AirChiller_1,Air Chiller Sensible Cooling Zone Credit Rate
+Freezer_1AirChiller_2,Air Chiller Sensible Cooling Zone Credit Rate
+Freezer_1AirChiller_3,Air Chiller Sensible Cooling Zone Credit Rate
+Freezer_1AirChiller_4,Air Chiller Sensible Cooling Zone Credit Rate
+Freezer_1AirChiller_5,Air Chiller Sensible Cooling Zone Credit Rate
+Freezer_1AirChiller_1,Air Chiller Heating Zone Credit Rate
+Freezer_1AirChiller_2,Air Chiller Heating Zone Credit Rate
+Freezer_1AirChiller_3,Air Chiller Heating Zone Credit Rate
+Freezer_1AirChiller_4,Air Chiller Heating Zone Credit Rate
+Freezer_1AirChiller_5,Air Chiller Heating Zone Credit Rate
+Zone Mixing Volume
+Zone Mixing Mass
+Zone Mixing Sensible Heat Loss
+Zone Mixing Sensible Heat Gain
+Zone Mixing Latent Heat Loss
+Zone Mixing Latent Heat Gain
+Zone Mixing Total Heat Loss
+Zone Mixing Total Heat Gain
+Unit Heater Heating Rate
+Freezer_1AirChiller_1,Air Chiller Sensible Heat Ratio
+Freezer_1AirChiller_2,Air Chiller Sensible Heat Ratio
+Freezer_1AirChiller_3,Air Chiller Sensible Heat Ratio
+Freezer_1AirChiller_4,Air Chiller Sensible Heat Ratio
+Freezer_1AirChiller_5,Air Chiller Sensible Heat Ratio
+Freezer_1AirChiller_1,Air Chiller Defrost Electric Power
+Freezer_1AirChiller_2,Air Chiller Defrost Electric Power
+Freezer_1AirChiller_3,Air Chiller Defrost Electric Power
+Freezer_1AirChiller_4,Air Chiller Defrost Electric Power
+Freezer_1AirChiller_5,Air Chiller Defrost Electric Power
+0

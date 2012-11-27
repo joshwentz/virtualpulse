@@ -1,0 +1,24 @@
+eplusout.eso
+eplusout.csv
+Outdoor Dry Bulb
+Pump Mass Flow Rate
+Domestic Hot Water Inlet Node,System Node Temp
+Domestic Hot Water Outlet Node,System Node Temp
+Storage Tank Source Loop Inlet Node,System Node Temp
+Storage Tank Source Loop Outlet Node,System Node Temp
+Storage Tank,Water Heater Tank Temperature
+Storage Tank,Water Heater Loss Rate
+Storage Tank,Water Heater Use Rate
+Storage Tank,Water Heater Source Rate
+Instantaneous Water Heater,Water Heater Tank Temperature
+Instantaneous Water Heater,Water Heater Electric Consumption Rate
+Tempering Valve Flow Fraction
+Water Use Equipment Hot Water Mass Flow Rate
+Water Use Equipment Total Mass Flow Rate
+Water Use Connections Hot Water Mass Flow Rate
+Water Use Connections Total Mass Flow Rate
+Collector Surface 1,Surface Ext Solar Incident
+Collector 1,Solar Collector Heat Transfer Rate
+WaterSystems:Electricity
+WaterSystems:Water
+0

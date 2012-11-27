@@ -1,0 +1,19 @@
+eplusout.eso
+eplusout.csv
+Outdoor Dry Bulb
+Zone/Sys Air Temperature
+Zone Air Humidity Ratio
+Zone/Sys Sensible Cooling Rate
+Zone/Sys Sensible Heating Rate
+Zone-Total Internal Latent Gain
+COOLING COIL AIR OUTLET NODE,System Node Temp
+COOLING COIL AIR OUTLET NODE,System Node Humidity Ratio
+AIR LOOP OUTLET NODE,System Node Temp
+AIR LOOP OUTLET NODE,System Node Humidity Ratio
+Mixed Air Node,System Node MassFlowRate
+Outside Air Inlet Node,System Node MassFlowRate
+Humidifier Water Consumption Rate
+Humidifier Electric Power
+Zone Air Relative Humidity
+Zone/Sys Moisture Load Rate Predicted
+0

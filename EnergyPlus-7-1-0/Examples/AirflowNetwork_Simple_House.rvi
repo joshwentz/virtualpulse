@@ -1,0 +1,26 @@
+eplusout.eso
+eplusout.csv
+AirflowNetwork Infiltration Sensible Gain
+AirflowNetwork Infiltration Sensible Loss
+AirflowNetwork Mixing Sensible Loss
+AirflowNetwork Mixing Sensible Gain
+AirflowNetwork Duct Leak Sensible Gain
+AirflowNetwork Duct Leak Sensible Loss
+AirflowNetwork Duct Conduction Sensible Gain
+AirflowNetwork Duct Conduction Sensible Loss
+AirflowNetwork Distribution sensible gain rate
+AirflowNetwork Distribution sensible gain
+AirflowNetwork Distribution sensible loss rate
+AirflowNetwork Distribution sensible loss
+AirflowNetwork Infiltration Sensible Loss
+AirflowNetwork Infiltration Sensible Gain
+Zone Infiltration Sensible Heat Loss
+Zone Infiltration Sensible Heat Gain
+Zone Ventilation Sensible Heat Loss
+Zone Ventilation Sensible Heat Gain
+DX Coil Total Cooling Energy
+Heating Coil Energy
+Zone/Sys Air Temperature
+Zone/Sys Sensible Heating Energy
+Zone/Sys Sensible Cooling Energy
+0

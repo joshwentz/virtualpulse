@@ -1,0 +1,19 @@
+eplusout.eso
+eplusout.csv
+Outdoor Dry Bulb
+Outdoor Wet Bulb
+Zone/Sys Air Temperature
+Zone Mean Air Temperature
+Zone Mean Radiant Temperature
+Hydronic Low Temp Radiant Heating Power
+Hydronic Low Temp Radiant Heating Energy
+Hydronic Low Temp Radiant Cooling Power
+Hydronic Low Temp Radiant Cooling Energy
+Hydronic Low Temp Radiant Water Mass Flow
+Hydronic Low Temp Radiant Water Inlet Temp
+Hydronic Low Temp Radiant Water Outlet Temp
+Source Location Temperature
+FangerPMV
+PierceTSENS
+KsuTSV
+0

@@ -1,0 +1,25 @@
+eplusout.eso
+eplusout.csv
+AIRFLOWNETWORK Distribution sensible loss rate
+AIRFLOWNETWORK Distribution sensible gain rate
+AIRFLOWNETWORK Distribution sensible loss
+AIRFLOWNETWORK Distribution sensible gain
+AirflowNetwork Infiltration Sensible Loss
+AirflowNetwork Infiltration Sensible Gain
+Zone Infiltration Sensible Heat Loss
+Zone Infiltration Sensible Heat Gain
+Zone Ventilation Sensible Heat Loss
+Zone Ventilation Sensible Heat Gain
+AirflowNetwork Mass Flow Rate from Node 1 to 2
+Heating Coil Gas Consumption Rate
+DX Cooling Coil Electric Power
+Zone/Sys Air Temperature
+Zone/Sys Sensible Heating Energy
+Zone/Sys Sensible Cooling Energy
+Zone Air Balance Internal Convective Gains Rate
+Zone Air Balance Surface Convection Rate
+Zone Air Balance Interzone Air Transfer Rate
+Zone Air Balance Outdoor Air Transfer Rate
+Zone Air Balance System Air Transfer Rate
+Zone Air Balance Air Energy Storage Rate
+0

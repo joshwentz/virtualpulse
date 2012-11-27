@@ -1,0 +1,1091 @@
+!===============================================================================
+! StandardReports.idf
+!
+! This dataset file contains Output:Table:Monthly for some commonly used monthly
+! reports.
+!   Zone Cooling Summary,
+!   Zone Heating Summary,
+!   Zone Electric Summary,
+!   Space Gains,
+!   Peak Space Gains,
+!   Space Gain Components at Cooling Peak,
+!   Energy Consumption - Electricity & Natural Gas,
+!   Energy Consumption - Electricity Generated & Propane,
+!   Energy Consumption - Diesel & Fuel Oil,
+!   Energy Consumption  - Purchased Heating & Cooling,
+!   Energy Consumption - Coal & Gasoline,
+!   End-Use Energy Consumption - Electricity,
+!   End-Use Energy Consumption - Natural Gas,
+!   End-Use Energy Consumption - Diesel,
+!   End-Use Energy Consumption - Fuel Oil,
+!   End-Use Energy Consumption - Coal,
+!   End-Use Energy Consumption - Propane,
+!   End-Use Energy Consumption - Gasoline,
+!   Peak Energy End-Use - Electricity Part 1,
+!   Peak Energy End-Use - Electricity Part 2,
+!   Electric Components of Peak Demand,
+!   Peak Energy End-Use - Natural Gas,
+!   Peak Energy End-Use - Diesel,
+!   Peak Energy End-Use - Fuel Oil,
+!   Peak Energy End-Use - Coal,
+!   Peak Energy End-Use - Propane,
+!   Peak Energy End-Use - Gasoline,
+!   Setpoints Not Met With Temperatures,
+!   Comfort Report - Simple 55
+!   Unglazed Transpired Solar Collector Summary,
+!   Occupant Comfort Data Summary,
+!   Chiller Report,
+!   Tower Report,
+!   Boiler Report,
+!   DX Report,
+!   Window Report,
+!   Window Energy Report,
+!   Window Zone Summary,
+!   Average Outdoor Conditions,
+!   Outdoor Conditions Maximum Drybulb,
+!   Outdoor Conditions Minimum Drybulb,
+!   Outdoor Conditions Maximum Wetbulb,
+!   Outdoor Conditions Maximum Dew Point,
+!   Outdoor Ground Conditions,
+!   Window AC Report,
+!   Water Heater Report,
+!   Generator Report,
+!   Daylighting Report,
+!   Coil Report,
+!   Plant Loop Demand Report,
+!   Fan Report,
+!   Pump Report,
+!   Cond Loop Demand Report,
+!   Zone Temperature Oscillation Report,
+!   Air Loop System Energy and Water Use,
+!   Air Loop System Component Loads,
+!   Air Loop System Component Energy Use,
+!   Mechanical Ventilation Loads,
+Output:Table:Monthly,
+    Zone Cooling Summary,    !- Name
+    ,                        !- Digits After Decimal
+    Zone/Sys Sensible Cooling Energy,  !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Zone/Sys Sensible Cooling Rate,  !- Variable or Meter 2 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 2
+    Outdoor Dry Bulb,        !- Variable or Meter 3 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 3
+    Outdoor Wet Bulb,        !- Variable or Meter 4 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 4
+    Zone Total Internal Latent Gain,  !- Variable or Meter 5 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 5
+    Zone Total Internal Latent Gain,  !- Variable or Meter 6 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 6
+    Outdoor Dry Bulb,        !- Variable or Meter 7 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 7
+    Outdoor Wet Bulb,        !- Variable or Meter 8 Name
+    ValueWhenMaximumOrMinimum;  !- Aggregation Type for Variable or Meter 8
+
+Output:Table:Monthly,
+    Zone Heating Summary,    !- Name
+    ,                        !- Digits After Decimal
+    Zone/Sys Sensible Heating Energy,  !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Zone/Sys Sensible Heating Rate,  !- Variable or Meter 2 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 2
+    Outdoor Dry Bulb,        !- Variable or Meter 3 Name
+    ValueWhenMaximumOrMinimum;  !- Aggregation Type for Variable or Meter 3
+
+Output:Table:Monthly,
+    Zone Electric Summary,   !- Name
+    ,                        !- Digits After Decimal
+    Zone Lights Electric Consumption,  !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Zone Lights Electric Consumption,  !- Variable or Meter 2 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 2
+    Zone Electric Equipment Electric Consumption,  !- Variable or Meter 3 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 3
+    Zone Electric Equipment Electric Consumption,  !- Variable or Meter 4 Name
+    Maximum;                 !- Aggregation Type for Variable or Meter 4
+
+Output:Table:Monthly,
+    Space Gains,             !- Name
+    ,                        !- Digits After Decimal
+    Zone People Total Heat Gain,  !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Zone Lights Total Heat Gain,  !- Variable or Meter 2 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 2
+    Zone Electric Equipment Total Heat Gain,  !- Variable or Meter 3 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 3
+    Zone Gas Equipment Total Heat Gain,  !- Variable or Meter 4 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 4
+    Zone Hot Water Equipment Total Heat Gain,  !- Variable or Meter 5 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 5
+    Zone Steam Equipment Total Heat Gain,  !- Variable or Meter 6 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 6
+    Zone Other Equipment Total Heat Gain,  !- Variable or Meter 7 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 7
+    Zone Infiltration Sensible Heat Gain,  !- Variable or Meter 8 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 8
+    Zone Infiltration Sensible Heat Loss,  !- Variable or Meter 9 Name
+    SumOrAverage;            !- Aggregation Type for Variable or Meter 9
+
+Output:Table:Monthly,
+    Peak Space Gains,        !- Name
+    ,                        !- Digits After Decimal
+    Zone People Total Heat Gain,  !- Variable or Meter 1 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 1
+    Zone Lights Total Heat Gain,  !- Variable or Meter 2 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 2
+    Zone Electric Equipment Total Heat Gain,  !- Variable or Meter 3 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 3
+    Zone Gas Equipment Total Heat Gain,  !- Variable or Meter 4 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 4
+    Zone Hot Water Equipment Total Heat Gain,  !- Variable or Meter 5 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 5
+    Zone Steam Equipment Total Heat Gain,  !- Variable or Meter 6 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 6
+    Zone Other Equipment Total Heat Gain,  !- Variable or Meter 7 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 7
+    Zone Infiltration Sensible Heat Gain,  !- Variable or Meter 8 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 8
+    Zone Infiltration Sensible Heat Loss,  !- Variable or Meter 9 Name
+    Maximum;                 !- Aggregation Type for Variable or Meter 9
+
+Output:Table:Monthly,
+    Space Gain Components at Cooling Peak,  !- Name
+    ,                        !- Digits After Decimal
+    Zone/Sys Sensible Cooling Rate,  !- Variable or Meter 1 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 1
+    Zone People Total Heat Gain,  !- Variable or Meter 2 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 2
+    Zone Lights Total Heat Gain,  !- Variable or Meter 3 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 3
+    Zone Electric Equipment Total Heat Gain,  !- Variable or Meter 4 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 4
+    Zone Gas Equipment Total Heat Gain,  !- Variable or Meter 5 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 5
+    Zone Hot Water Equipment Total Heat Gain,  !- Variable or Meter 6 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 6
+    Zone Steam Equipment Total Heat Gain,  !- Variable or Meter 7 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 7
+    Zone Other Equipment Total Heat Gain,  !- Variable or Meter 8 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 8
+    Zone Infiltration Sensible Heat Gain,  !- Variable or Meter 9 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 9
+    Zone Infiltration Sensible Heat Loss,  !- Variable or Meter 10 Name
+    ValueWhenMaximumOrMinimum;  !- Aggregation Type for Variable or Meter 10
+
+Output:Table:Monthly,
+    Energy Consumption - Electricity & Natural Gas,  !- Name
+    ,                        !- Digits After Decimal
+    Electricity:Facility,    !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Electricity:Facility,    !- Variable or Meter 2 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 2
+    Gas:Facility,            !- Variable or Meter 3 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 3
+    Gas:Facility,            !- Variable or Meter 4 Name
+    Maximum;                 !- Aggregation Type for Variable or Meter 4
+
+Output:Table:Monthly,
+    Energy Consumption - Electricity Generated & Propane,  !- Name
+    ,                        !- Digits After Decimal
+    ElectricityProduced:Facility,  !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    ElectricityProduced:Facility,  !- Variable or Meter 2 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 2
+    Propane:Facility,        !- Variable or Meter 3 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 3
+    Propane:Facility,        !- Variable or Meter 4 Name
+    Maximum;                 !- Aggregation Type for Variable or Meter 4
+
+Output:Table:Monthly,
+    Energy Consumption - Diesel & Fuel Oil,  !- Name
+    ,                        !- Digits After Decimal
+    Diesel:Facility,         !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Diesel:Facility,         !- Variable or Meter 2 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 2
+    FuelOil#1:Facility,      !- Variable or Meter 3 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 3
+    FuelOil#1:Facility,      !- Variable or Meter 4 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 4
+    FuelOil#2:Facility,      !- Variable or Meter 5 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 5
+    FuelOil#2:Facility,      !- Variable or Meter 6 Name
+    Maximum;                 !- Aggregation Type for Variable or Meter 6
+
+Output:Table:Monthly,
+    Energy Consumption  - Purchased Heating & Cooling,  !- Name
+    ,                        !- Digits After Decimal
+    DistrictCooling:Facility,!- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    DistrictCooling:Facility,!- Variable or Meter 2 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 2
+    DistrictHeating:Facility,!- Variable or Meter 3 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 3
+    DistrictHeating:Facility,!- Variable or Meter 4 Name
+    Maximum;                 !- Aggregation Type for Variable or Meter 4
+
+Output:Table:Monthly,
+    Energy Consumption - Coal & Gasoline,  !- Name
+    ,                        !- Digits After Decimal
+    COAL:Facility,           !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    COAL:Facility,           !- Variable or Meter 2 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 2
+    GASOLINE:Facility,       !- Variable or Meter 3 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 3
+    GASOLINE:Facility,       !- Variable or Meter 4 Name
+    Maximum;                 !- Aggregation Type for Variable or Meter 4
+
+Output:Table:Monthly,
+    End-Use Energy Consumption - Electricity,  !- Name
+    ,                        !- Digits After Decimal
+    InteriorLights:Electricity,  !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    ExteriorLights:Electricity,  !- Variable or Meter 2 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 2
+    InteriorEquipment:Electricity,  !- Variable or Meter 3 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 3
+    ExteriorEquipment:Electricity,  !- Variable or Meter 4 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 4
+    Fans:Electricity,        !- Variable or Meter 5 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 5
+    Pumps:Electricity,       !- Variable or Meter 6 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 6
+    Heating:Electricity,     !- Variable or Meter 7 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 7
+    Cooling:Electricity,     !- Variable or Meter 8 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 8
+    HeatRejection:Electricity,  !- Variable or Meter 9 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 9
+    Humidifier:Electricity,  !- Variable or Meter 10 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 10
+    HeatRecovery:Electricity,!- Variable or Meter 11 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 11
+    WaterSystems:Electricity,!- Variable or Meter 12 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 12
+    Cogeneration:Electricity,!- Variable or Meter 13 Name
+    SumOrAverage;            !- Aggregation Type for Variable or Meter 13
+
+Output:Table:Monthly,
+    End-Use Energy Consumption - Natural Gas,  !- Name
+    ,                        !- Digits After Decimal
+    InteriorEquipment:Gas,   !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    ExteriorEquipment:Gas,   !- Variable or Meter 2 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 2
+    Heating:Gas,             !- Variable or Meter 3 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 3
+    Cooling:Gas,             !- Variable or Meter 4 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 4
+    WaterSystems:Gas,        !- Variable or Meter 5 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 5
+    Cogeneration:Gas,        !- Variable or Meter 6 Name
+    SumOrAverage;            !- Aggregation Type for Variable or Meter 6
+
+Output:Table:Monthly,
+    End-Use Energy Consumption - Diesel,  !- Name
+    ,                        !- Digits After Decimal
+    ExteriorEquipment:Diesel,!- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Cooling:Diesel,          !- Variable or Meter 2 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 2
+    Heating:Diesel,          !- Variable or Meter 3 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 3
+    WaterSystems:Diesel,     !- Variable or Meter 4 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 4
+    Cogeneration:Diesel,     !- Variable or Meter 5 Name
+    SumOrAverage;            !- Aggregation Type for Variable or Meter 5
+
+Output:Table:Monthly,
+    End-Use Energy Consumption - Fuel Oil,  !- Name
+    ,                        !- Digits After Decimal
+    ExteriorEquipment:FuelOil#1,  !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Cooling:FuelOil#1,       !- Variable or Meter 2 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 2
+    Heating:FuelOil#1,       !- Variable or Meter 3 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 3
+    WaterSystems:FuelOil#1,  !- Variable or Meter 4 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 4
+    Cogeneration:FuelOil#1,  !- Variable or Meter 5 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 5
+    ExteriorEquipment:FuelOil#2,  !- Variable or Meter 6 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 6
+    Cooling:FuelOil#2,       !- Variable or Meter 7 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 7
+    Heating:FuelOil#2,       !- Variable or Meter 8 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 8
+    WaterSystems:FuelOil#2,  !- Variable or Meter 9 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 9
+    Cogeneration:FuelOil#2,  !- Variable or Meter 10 Name
+    SumOrAverage;            !- Aggregation Type for Variable or Meter 10
+
+Output:Table:Monthly,
+    End-Use Energy Consumption - Coal,  !- Name
+    ,                        !- Digits After Decimal
+    ExteriorEquipment:Coal,  !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Heating:Coal,            !- Variable or Meter 2 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 2
+    WaterSystems:Coal,       !- Variable or Meter 3 Name
+    SumOrAverage;            !- Aggregation Type for Variable or Meter 3
+
+Output:Table:Monthly,
+    End-Use Energy Consumption - Propane,  !- Name
+    ,                        !- Digits After Decimal
+    ExteriorEquipment:Propane,  !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Cooling:Propane,         !- Variable or Meter 2 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 2
+    Heating:Propane,         !- Variable or Meter 3 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 3
+    WaterSystems:Propane,    !- Variable or Meter 4 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 4
+    Cogeneration:Propane,    !- Variable or Meter 5 Name
+    SumOrAverage;            !- Aggregation Type for Variable or Meter 5
+
+Output:Table:Monthly,
+    End-Use Energy Consumption - Gasoline,  !- Name
+    ,                        !- Digits After Decimal
+    ExteriorEquipment:Gasoline,  !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Cooling:Gasoline,        !- Variable or Meter 2 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 2
+    Heating:Gasoline,        !- Variable or Meter 3 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 3
+    WaterSystems:Gasoline,   !- Variable or Meter 4 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 4
+    Cogeneration:Gasoline,   !- Variable or Meter 5 Name
+    SumOrAverage;            !- Aggregation Type for Variable or Meter 5
+
+Output:Table:Monthly,
+    Peak Energy End-Use - Electricity Part 1,  !- Name
+    ,                        !- Digits After Decimal
+    InteriorLights:Electricity,  !- Variable or Meter 1 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 1
+    ExteriorLights:Electricity,  !- Variable or Meter 2 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 2
+    InteriorEquipment:Electricity,  !- Variable or Meter 3 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 3
+    ExteriorEquipment:Electricity,  !- Variable or Meter 4 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 4
+    Fans:Electricity,        !- Variable or Meter 5 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 5
+    Pumps:Electricity,       !- Variable or Meter 6 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 6
+    Heating:Electricity,     !- Variable or Meter 7 Name
+    Maximum;                 !- Aggregation Type for Variable or Meter 7
+
+Output:Table:Monthly,
+    Peak Energy End-Use - Electricity Part 2,  !- Name
+    ,                        !- Digits After Decimal
+    Cooling:Electricity,     !- Variable or Meter 1 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 1
+    HeatRejection:Electricity,  !- Variable or Meter 2 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 2
+    Humidifier:Electricity,  !- Variable or Meter 3 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 3
+    HeatRecovery:Electricity,!- Variable or Meter 4 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 4
+    WaterSystems:Electricity,!- Variable or Meter 5 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 5
+    Cogeneration:Electricity,!- Variable or Meter 6 Name
+    Maximum;                 !- Aggregation Type for Variable or Meter 6
+
+Output:Table:Monthly,
+    Electric Components of Peak Demand,  !- Name
+    ,                        !- Digits After Decimal
+    Electricity:Facility,    !- Variable or Meter 1 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 1
+    InteriorLights:Electricity,  !- Variable or Meter 2 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 2
+    InteriorEquipment:Electricity,  !- Variable or Meter 3 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 3
+    ExteriorLights:Electricity,  !- Variable or Meter 4 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 4
+    ExteriorEquipment:Electricity,  !- Variable or Meter 5 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 5
+    Fans:Electricity,        !- Variable or Meter 6 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 6
+    Pumps:Electricity,       !- Variable or Meter 7 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 7
+    Heating:Electricity,     !- Variable or Meter 8 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 8
+    Cooling:Electricity,     !- Variable or Meter 9 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 9
+    HeatRejection:Electricity,  !- Variable or Meter 10 Name
+    ValueWhenMaximumOrMinimum;  !- Aggregation Type for Variable or Meter 10
+
+Output:Table:Monthly,
+    Peak Energy End-Use - Natural Gas,  !- Name
+    ,                        !- Digits After Decimal
+    InteriorEquipment:Gas,   !- Variable or Meter 1 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 1
+    ExteriorEquipment:Gas,   !- Variable or Meter 2 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 2
+    Heating:Gas,             !- Variable or Meter 3 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 3
+    Cooling:Gas,             !- Variable or Meter 4 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 4
+    WaterSystems:Gas,        !- Variable or Meter 5 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 5
+    Cogeneration:Gas,        !- Variable or Meter 6 Name
+    Maximum;                 !- Aggregation Type for Variable or Meter 6
+
+Output:Table:Monthly,
+    Peak Energy End-Use - Diesel,  !- Name
+    ,                        !- Digits After Decimal
+    ExteriorEquipment:Diesel,!- Variable or Meter 1 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 1
+    Cooling:Diesel,          !- Variable or Meter 2 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 2
+    Heating:Diesel,          !- Variable or Meter 3 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 3
+    WaterSystems:Diesel,     !- Variable or Meter 4 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 4
+    Cogeneration:Diesel,     !- Variable or Meter 5 Name
+    Maximum;                 !- Aggregation Type for Variable or Meter 5
+
+Output:Table:Monthly,
+    Peak Energy End-Use - Fuel Oil,  !- Name
+    ,                        !- Digits After Decimal
+    ExteriorEquipment:FuelOil#1,  !- Variable or Meter 1 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 1
+    Cooling:FuelOil#1,       !- Variable or Meter 2 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 2
+    Heating:FuelOil#1,       !- Variable or Meter 3 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 3
+    WaterSystems:FuelOil#1,  !- Variable or Meter 4 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 4
+    Cogeneration:FuelOil#1,  !- Variable or Meter 5 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 5
+    ExteriorEquipment:FuelOil#2,  !- Variable or Meter 6 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 6
+    Cooling:FuelOil#2,       !- Variable or Meter 7 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 7
+    Heating:FuelOil#2,       !- Variable or Meter 8 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 8
+    WaterSystems:FuelOil#2,  !- Variable or Meter 9 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 9
+    Cogeneration:FuelOil#2,  !- Variable or Meter 10 Name
+    Maximum;                 !- Aggregation Type for Variable or Meter 10
+
+Output:Table:Monthly,
+    Peak Energy End-Use - Coal,  !- Name
+    ,                        !- Digits After Decimal
+    ExteriorEquipment:Coal,  !- Variable or Meter 1 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 1
+    Heating:Coal,            !- Variable or Meter 2 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 2
+    WaterSystems:Coal,       !- Variable or Meter 3 Name
+    Maximum;                 !- Aggregation Type for Variable or Meter 3
+
+Output:Table:Monthly,
+    Peak Energy End-Use - Propane,  !- Name
+    ,                        !- Digits After Decimal
+    ExteriorEquipment:Propane,  !- Variable or Meter 1 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 1
+    Cooling:Propane,         !- Variable or Meter 2 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 2
+    Heating:Propane,         !- Variable or Meter 3 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 3
+    WaterSystems:Propane,    !- Variable or Meter 4 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 4
+    Cogeneration:Propane,    !- Variable or Meter 5 Name
+    Maximum;                 !- Aggregation Type for Variable or Meter 5
+
+Output:Table:Monthly,
+    Peak Energy End-Use - Gasoline,  !- Name
+    ,                        !- Digits After Decimal
+    ExteriorEquipment:Gasoline,  !- Variable or Meter 1 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 1
+    Cooling:Gasoline,        !- Variable or Meter 2 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 2
+    Heating:Gasoline,        !- Variable or Meter 3 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 3
+    WaterSystems:Gasoline,   !- Variable or Meter 4 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 4
+    Cogeneration:Gasoline,   !- Variable or Meter 5 Name
+    Maximum;                 !- Aggregation Type for Variable or Meter 5
+
+Output:Table:Monthly,
+    Setpoints Not Met With Temperatures,  !- Name
+    2,                       !- Digits After Decimal
+    Time Heating Setpoint Not Met,  !- Variable or Meter 1 Name
+    HoursNonZero,            !- Aggregation Type for Variable or Meter 1
+    Zone Mean Air Temperature,  !- Variable or Meter 2 Name
+    SumOrAverageDuringHoursShown,  !- Aggregation Type for Variable or Meter 2
+    Time Heating Setpoint Not Met While Occupied,  !- Variable or Meter 3 Name
+    HoursNonZero,            !- Aggregation Type for Variable or Meter 3
+    Zone Mean Air Temperature,  !- Variable or Meter 4 Name
+    SumOrAverageDuringHoursShown,  !- Aggregation Type for Variable or Meter 4
+    Time Cooling Setpoint Not Met,  !- Variable or Meter 5 Name
+    HoursNonZero,            !- Aggregation Type for Variable or Meter 5
+    Zone Mean Air Temperature,  !- Variable or Meter 6 Name
+    SumOrAverageDuringHoursShown,  !- Aggregation Type for Variable or Meter 6
+    Time Cooling Setpoint Not Met While Occupied,  !- Variable or Meter 7 Name
+    HoursNonZero,            !- Aggregation Type for Variable or Meter 7
+    Zone Mean Air Temperature,  !- Variable or Meter 8 Name
+    SumOrAverageDuringHoursShown;  !- Aggregation Type for Variable or Meter 8
+
+Output:Table:Monthly,
+    Comfort Report - Simple 55,  !- Name
+    2,                       !- Digits After Decimal
+    Time Not Comfortable Summer Clothes,  !- Variable or Meter 1 Name
+    HoursNonZero,            !- Aggregation Type for Variable or Meter 1
+    Zone Mean Air Temperature,  !- Variable or Meter 2 Name
+    SumOrAverageDuringHoursShown,  !- Aggregation Type for Variable or Meter 2
+    Time Not Comfortable Winter Clothes,  !- Variable or Meter 3 Name
+    HoursNonZero,            !- Aggregation Type for Variable or Meter 3
+    Zone Mean Air Temperature,  !- Variable or Meter 4 Name
+    SumOrAverageDuringHoursShown,  !- Aggregation Type for Variable or Meter 4
+    Time Not Comfortable Summer Or Winter Clothes,  !- Variable or Meter 5 Name
+    HoursNonZero,            !- Aggregation Type for Variable or Meter 5
+    Zone Mean Air Temperature,  !- Variable or Meter 6 Name
+    SumOrAverageDuringHoursShown;  !- Aggregation Type for Variable or Meter 6
+
+Output:Table:Monthly,
+    Unglazed Transpired Solar Collector Summary,  !- Name
+    5,                       !- Digits After Decimal
+    UTSC Overall Efficiency, !- Variable or Meter 1 Name
+    HoursNonZero,            !- Aggregation Type for Variable or Meter 1
+    UTSC Overall Efficiency, !- Variable or Meter 2 Name
+    SumOrAverageDuringHoursShown,  !- Aggregation Type for Variable or Meter 2
+    UTSC Average Suction Face Velocity,  !- Variable or Meter 3 Name
+    SumOrAverageDuringHoursShown,  !- Aggregation Type for Variable or Meter 3
+    UTSC Sensible Heating Rate,  !- Variable or Meter 4 Name
+    SumOrAverageDuringHoursShown;  !- Aggregation Type for Variable or Meter 4
+
+Output:Table:Monthly,
+    Occupant Comfort Data Summary,  !- Name
+    5,                       !- Digits After Decimal
+    Zone People Number Of Occupants,  !- Variable or Meter 1 Name
+    HoursNonZero,            !- Aggregation Type for Variable or Meter 1
+    Zone/Sys Air Temperature,!- Variable or Meter 2 Name
+    SumOrAverageDuringHoursShown,  !- Aggregation Type for Variable or Meter 2
+    Zone Air Relative Humidity,  !- Variable or Meter 3 Name
+    SumOrAverageDuringHoursShown,  !- Aggregation Type for Variable or Meter 3
+    FANGERPMV,               !- Variable or Meter 4 Name
+    SumOrAverageDuringHoursShown;  !- Aggregation Type for Variable or Meter 4
+
+Output:Table:Monthly,
+    Chiller Report,          !- Name
+    ,                        !- Digits After Decimal
+    Chiller Electric Consumption,  !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Chiller Electric Power,  !- Variable or Meter 2 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 2
+    Chiller Electric Consumption,  !- Variable or Meter 3 Name
+    HoursNonZero,            !- Aggregation Type for Variable or Meter 3
+    Chiller Evap Heat Trans, !- Variable or Meter 4 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 4
+    Chiller Cond Heat Trans, !- Variable or Meter 5 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 5
+    Chiller COP,             !- Variable or Meter 6 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 6
+    Chiller COP,             !- Variable or Meter 7 Name
+    Minimum,                 !- Aggregation Type for Variable or Meter 7
+    Chiller COP,             !- Variable or Meter 8 Name
+    Maximum;                 !- Aggregation Type for Variable or Meter 8
+
+Output:Table:Monthly,
+    Tower Report,            !- Name
+    ,                        !- Digits After Decimal
+    Tower Fan Electric Consumption,  !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Tower Fan Electric Consumption,  !- Variable or Meter 2 Name
+    HoursNonZero,            !- Aggregation Type for Variable or Meter 2
+    Tower Fan Electric Power,!- Variable or Meter 3 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 3
+    Tower Heat Transfer,     !- Variable or Meter 4 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 4
+    Tower Water Inlet Temp,  !- Variable or Meter 5 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 5
+    Tower Water Outlet Temp, !- Variable or Meter 6 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 6
+    Tower Water Mass Flow Rate,  !- Variable or Meter 7 Name
+    SumOrAverage;            !- Aggregation Type for Variable or Meter 7
+
+Output:Table:Monthly,
+    Boiler Report,           !- Name
+    ,                        !- Digits After Decimal
+    Boiler Heating Output Energy,  !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Boiler Gas Consumption,  !- Variable or Meter 2 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 2
+    Boiler Heating Output Energy,  !- Variable or Meter 3 Name
+    HoursNonZero,            !- Aggregation Type for Variable or Meter 3
+    Boiler Heating Output Rate,  !- Variable or Meter 4 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 4
+    Boiler Gas Consumption Rate,  !- Variable or Meter 5 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 5
+    Boiler Water Inlet Temp, !- Variable or Meter 6 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 6
+    Boiler Water Outlet Temp,!- Variable or Meter 7 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 7
+    Boiler Water Mass Flow Rate,  !- Variable or Meter 8 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 8
+    Boiler Parasitic Electric Consumption Rate,  !- Variable or Meter 9 Name
+    SumOrAverage;            !- Aggregation Type for Variable or Meter 9
+
+Output:Table:Monthly,
+    DX Report,               !- Name
+    ,                        !- Digits After Decimal
+    DX Coil Total Cooling Energy,  !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    DX Cooling Coil Electric Consumption,  !- Variable or Meter 2 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 2
+    DX Coil Total Cooling Energy,  !- Variable or Meter 3 Name
+    HoursNonZero,            !- Aggregation Type for Variable or Meter 3
+    DX Coil Sensible Cooling Energy,  !- Variable or Meter 4 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 4
+    DX Coil Latent Cooling Energy,  !- Variable or Meter 5 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 5
+    DX Cooling Coil Crankcase Heater Consumption,  !- Variable or Meter 6 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 6
+    DX Cooling Coil Runtime Fraction,  !- Variable or Meter 7 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 7
+    DX Cooling Coil Runtime Fraction,  !- Variable or Meter 8 Name
+    Minimum,                 !- Aggregation Type for Variable or Meter 8
+    DX Coil Total Cooling Rate,  !- Variable or Meter 9 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 9
+    DX Coil Sensible Cooling Rate,  !- Variable or Meter 10 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 10
+    DX Coil Latent Cooling Rate,  !- Variable or Meter 11 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 11
+    DX Cooling Coil Electric Power,  !- Variable or Meter 12 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 12
+    DX Cooling Coil Crankcase Heater Power,  !- Variable or Meter 13 Name
+    Maximum;                 !- Aggregation Type for Variable or Meter 13
+
+Output:Table:Monthly,
+    Window Report,           !- Name
+    ,                        !- Digits After Decimal
+    Window Transmitted Solar,!- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Window Transmitted Beam Solar,  !- Variable or Meter 2 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 2
+    Window Transmitted Diffuse Solar,  !- Variable or Meter 3 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 3
+    Window Heat Gain,        !- Variable or Meter 4 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 4
+    Window Heat Loss,        !- Variable or Meter 5 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 5
+    Inside Glass Condensation Flag,  !- Variable or Meter 6 Name
+    HoursNonZero,            !- Aggregation Type for Variable or Meter 6
+    Fraction of Time Shading Device Is On,  !- Variable or Meter 7 Name
+    HoursNonZero,            !- Aggregation Type for Variable or Meter 7
+    Storm Window On/Off Flag,!- Variable or Meter 8 Name
+    HoursNonZero;            !- Aggregation Type for Variable or Meter 8
+
+Output:Table:Monthly,
+    Window Energy Report,    !- Name
+    ,                        !- Digits After Decimal
+    Window Transmitted Solar Energy,  !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Window Transmitted Beam Solar Energy,  !- Variable or Meter 2 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 2
+    Window Transmitted Diffuse Solar Energy,  !- Variable or Meter 3 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 3
+    Window Heat Gain Energy, !- Variable or Meter 4 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 4
+    Window Heat Loss Energy, !- Variable or Meter 5 Name
+    SumOrAverage;            !- Aggregation Type for Variable or Meter 5
+
+Output:Table:Monthly,
+    Window Zone Summary,     !- Name
+    ,                        !- Digits After Decimal
+    Zone Window Heat Gain,   !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Zone Window Heat Loss,   !- Variable or Meter 2 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 2
+    Zone Transmitted Solar,  !- Variable or Meter 3 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 3
+    Zone Beam Solar from Exterior Windows,  !- Variable or Meter 4 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 4
+    Zone Diff Solar from Exterior Windows,  !- Variable or Meter 5 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 5
+    Zone Diff Solar from Interior Windows,  !- Variable or Meter 6 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 6
+    Zone Beam Solar from Interior Windows,  !- Variable or Meter 7 Name
+    SumOrAverage;            !- Aggregation Type for Variable or Meter 7
+
+Output:Table:Monthly,
+    Window Energy Zone Summary,  !- Name
+    ,                        !- Digits After Decimal
+    Zone Window Heat Gain Energy,  !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Zone Window Heat Loss Energy,  !- Variable or Meter 2 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 2
+    Zone Transmitted Solar Energy,  !- Variable or Meter 3 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 3
+    Zone Beam Solar from Exterior Windows Energy,  !- Variable or Meter 4 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 4
+    Zone Diff Solar from Exterior Windows Energy,  !- Variable or Meter 5 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 5
+    Zone Diff Solar from Interior Windows Energy,  !- Variable or Meter 6 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 6
+    Zone Beam Solar from Interior Windows Energy,  !- Variable or Meter 7 Name
+    SumOrAverage;            !- Aggregation Type for Variable or Meter 7
+
+Output:Table:Monthly,
+    Average Outdoor Conditions,  !- Name
+    ,                        !- Digits After Decimal
+    Outdoor Dry Bulb,        !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Outdoor Wet Bulb,        !- Variable or Meter 2 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 2
+    Outdoor Dew Point,       !- Variable or Meter 3 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 3
+    Wind Speed,              !- Variable or Meter 4 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 4
+    Sky Temperature,         !- Variable or Meter 5 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 5
+    Diffuse Solar,           !- Variable or Meter 6 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 6
+    Direct Solar,            !- Variable or Meter 7 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 7
+    Raining,                 !- Variable or Meter 8 Name
+    SumOrAverage;            !- Aggregation Type for Variable or Meter 8
+
+Output:Table:Monthly,
+    Outdoor Conditions Maximum Drybulb,  !- Name
+    ,                        !- Digits After Decimal
+    Outdoor Dry Bulb,        !- Variable or Meter 1 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 1
+    Outdoor Wet Bulb,        !- Variable or Meter 2 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 2
+    Outdoor Dew Point,       !- Variable or Meter 3 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 3
+    Wind Speed,              !- Variable or Meter 4 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 4
+    Sky Temperature,         !- Variable or Meter 5 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 5
+    Diffuse Solar,           !- Variable or Meter 6 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 6
+    Direct Solar,            !- Variable or Meter 7 Name
+    ValueWhenMaximumOrMinimum;  !- Aggregation Type for Variable or Meter 7
+
+Output:Table:Monthly,
+    Outdoor Conditions Minimum Drybulb,  !- Name
+    ,                        !- Digits After Decimal
+    Outdoor Dry Bulb,        !- Variable or Meter 1 Name
+    Minimum,                 !- Aggregation Type for Variable or Meter 1
+    Outdoor Wet Bulb,        !- Variable or Meter 2 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 2
+    Outdoor Dew Point,       !- Variable or Meter 3 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 3
+    Wind Speed,              !- Variable or Meter 4 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 4
+    Sky Temperature,         !- Variable or Meter 5 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 5
+    Diffuse Solar,           !- Variable or Meter 6 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 6
+    Direct Solar,            !- Variable or Meter 7 Name
+    ValueWhenMaximumOrMinimum;  !- Aggregation Type for Variable or Meter 7
+
+Output:Table:Monthly,
+    Outdoor Conditions Maximum Wetbulb,  !- Name
+    ,                        !- Digits After Decimal
+    Outdoor Wet Bulb,        !- Variable or Meter 1 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 1
+    Outdoor Dry Bulb,        !- Variable or Meter 2 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 2
+    Outdoor Dew Point,       !- Variable or Meter 3 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 3
+    Wind Speed,              !- Variable or Meter 4 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 4
+    Sky Temperature,         !- Variable or Meter 5 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 5
+    Diffuse Solar,           !- Variable or Meter 6 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 6
+    Direct Solar,            !- Variable or Meter 7 Name
+    ValueWhenMaximumOrMinimum;  !- Aggregation Type for Variable or Meter 7
+
+Output:Table:Monthly,
+    Outdoor Conditions Maximum Dew Point,  !- Name
+    ,                        !- Digits After Decimal
+    Outdoor Dew Point,       !- Variable or Meter 1 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 1
+    Outdoor Dry Bulb,        !- Variable or Meter 2 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 2
+    Outdoor Wet Bulb,        !- Variable or Meter 3 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 3
+    Wind Speed,              !- Variable or Meter 4 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 4
+    Sky Temperature,         !- Variable or Meter 5 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 5
+    Diffuse Solar,           !- Variable or Meter 6 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 6
+    Direct Solar,            !- Variable or Meter 7 Name
+    ValueWhenMaximumOrMinimum;  !- Aggregation Type for Variable or Meter 7
+
+Output:Table:Monthly,
+    Outdoor Ground Conditions,  !- Name
+    ,                        !- Digits After Decimal
+    Ground Temperature,      !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Surface Ground Temperature,  !- Variable or Meter 2 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 2
+    Deep Ground Temperature, !- Variable or Meter 3 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 3
+    Water Mains Temperature, !- Variable or Meter 4 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 4
+    Ground Reflected Solar,  !- Variable or Meter 5 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 5
+    Snow On Ground,          !- Variable or Meter 6 Name
+    SumOrAverage;            !- Aggregation Type for Variable or Meter 6
+
+Output:Table:Monthly,
+    Window AC Report,        !- Name
+    ,                        !- Digits After Decimal
+    Window AC Total Zone Cooling Energy,  !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Window AC Electric Consumption,  !- Variable or Meter 2 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 2
+    Window AC Total Zone Cooling Energy,  !- Variable or Meter 3 Name
+    HoursNonZero,            !- Aggregation Type for Variable or Meter 3
+    Window AC Sensible Zone Cooling Energy,  !- Variable or Meter 4 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 4
+    Window AC Latent Zone Cooling Energy,  !- Variable or Meter 5 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 5
+    Window AC Total Zone Cooling Rate,  !- Variable or Meter 6 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 6
+    Window AC Sensible Zone Cooling Rate,  !- Variable or Meter 7 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 7
+    Window AC Latent Zone Cooling Rate,  !- Variable or Meter 8 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 8
+    Window AC Electric Power,!- Variable or Meter 9 Name
+    ValueWhenMaximumOrMinimum;  !- Aggregation Type for Variable or Meter 9
+
+Output:Table:Monthly,
+    Water Heater Report,     !- Name
+    ,                        !- Digits After Decimal
+    Water Heater Total Demand Energy,  !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Water Heater Use Energy, !- Variable or Meter 2 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 2
+    Water Heater Burner Heating Energy,  !- Variable or Meter 3 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 3
+    Water Heater Gas Consumption,  !- Variable or Meter 4 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 4
+    Water Heater Total Demand Energy,  !- Variable or Meter 5 Name
+    HoursNonZero,            !- Aggregation Type for Variable or Meter 5
+    Water Heater Loss Demand Energy,  !- Variable or Meter 6 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 6
+    Water Heater Loss Energy,!- Variable or Meter 7 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 7
+    Water Heater Tank Temperature,  !- Variable or Meter 8 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 8
+    Water Heater Heat Recovery Supply Energy,  !- Variable or Meter 9 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 9
+    Water Heater Source Energy,  !- Variable or Meter 10 Name
+    SumOrAverage;            !- Aggregation Type for Variable or Meter 10
+
+Output:Table:Monthly,
+    Generator Report,        !- Name
+    ,                        !- Digits After Decimal
+    Generator Electric Energy Produced,  !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Generator Diesel Consumption,  !- Variable or Meter 2 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 2
+    Generator Gas Consumption,  !- Variable or Meter 3 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 3
+    Generator Electric Energy Produced,  !- Variable or Meter 4 Name
+    HoursNonZero,            !- Aggregation Type for Variable or Meter 4
+    Generator Total Heat Recovery,  !- Variable or Meter 5 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 5
+    Generator Jacket Heat Recovery,  !- Variable or Meter 6 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 6
+    Generator Lube Heat Recovery,  !- Variable or Meter 7 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 7
+    Generator Exhaust Heat Recovery,  !- Variable or Meter 8 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 8
+    Generator Exhaust Stack Temp,  !- Variable or Meter 9 Name
+    SumOrAverage;            !- Aggregation Type for Variable or Meter 9
+
+Output:Table:Monthly,
+    Daylighting Report,      !- Name
+    ,                        !- Digits After Decimal
+    Exterior Beam Normal Illuminance,  !- Variable or Meter 1 Name
+    HoursNonZero,            !- Aggregation Type for Variable or Meter 1
+    Ltg Power Multiplier from Daylighting,  !- Variable or Meter 2 Name
+    SumOrAverageDuringHoursShown,  !- Aggregation Type for Variable or Meter 2
+    Ltg Power Multiplier from Daylighting,  !- Variable or Meter 3 Name
+    MinimumDuringHoursShown, !- Aggregation Type for Variable or Meter 3
+    Daylight Illum at Ref Point 1,  !- Variable or Meter 4 Name
+    SumOrAverageDuringHoursShown,  !- Aggregation Type for Variable or Meter 4
+    Glare Index at Ref Point 1,  !- Variable or Meter 5 Name
+    SumOrAverageDuringHoursShown,  !- Aggregation Type for Variable or Meter 5
+    Daylight Illum at Ref Point 2,  !- Variable or Meter 6 Name
+    SumOrAverageDuringHoursShown,  !- Aggregation Type for Variable or Meter 6
+    Glare Index at Ref Point 2,  !- Variable or Meter 7 Name
+    SumOrAverageDuringHoursShown;  !- Aggregation Type for Variable or Meter 7
+
+Output:Table:Monthly,
+    Coil Report,             !- Name
+    ,                        !- Digits After Decimal
+    Total Water Heating Coil Energy,  !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Total Water Heating Coil Rate,  !- Variable or Meter 2 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 2
+    Total Water Cooling Coil Energy,  !- Variable or Meter 3 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 3
+    Sensible Water Cooling Coil Energy,  !- Variable or Meter 4 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 4
+    Total Water Cooling Coil Rate,  !- Variable or Meter 5 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 5
+    Sensible Water Cooling Coil Rate,  !- Variable or Meter 6 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 6
+    Cooling Coil Area Wet Fraction,  !- Variable or Meter 7 Name
+    SumOrAverage;            !- Aggregation Type for Variable or Meter 7
+
+Output:Table:Monthly,
+    Plant Loop Demand Report,!- Name
+    ,                        !- Digits After Decimal
+    Plant Loop Cooling Demand,  !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Plant Loop Cooling Demand,  !- Variable or Meter 2 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 2
+    Plant Loop Heating Demand,  !- Variable or Meter 3 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 3
+    Plant Loop Heating Demand,  !- Variable or Meter 4 Name
+    Maximum;                 !- Aggregation Type for Variable or Meter 4
+
+Output:Table:Monthly,
+    Fan Report,              !- Name
+    ,                        !- Digits After Decimal
+    Fan Electric Consumption,!- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Fan Delta Temp,          !- Variable or Meter 2 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 2
+    Fan Electric Power,      !- Variable or Meter 3 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 3
+    Fan Delta Temp,          !- Variable or Meter 4 Name
+    ValueWhenMaximumOrMinimum;  !- Aggregation Type for Variable or Meter 4
+
+Output:Table:Monthly,
+    Pump Report,             !- Name
+    ,                        !- Digits After Decimal
+    Pump Electric Consumption,  !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Pump Heat To Fluid Energy,  !- Variable or Meter 2 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 2
+    Pump Electric Power,     !- Variable or Meter 3 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 3
+    Pump Shaft Power,        !- Variable or Meter 4 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 4
+    Pump Heat To Fluid,      !- Variable or Meter 5 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 5
+    Pump Outlet Temp,        !- Variable or Meter 6 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 6
+    Pump Mass Flow Rate,     !- Variable or Meter 7 Name
+    ValueWhenMaximumOrMinimum;  !- Aggregation Type for Variable or Meter 7
+
+Output:Table:Monthly,
+    Cond Loop Demand Report, !- Name
+    ,                        !- Digits After Decimal
+    Cond Loop Cooling Demand,!- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Cond Loop Cooling Demand,!- Variable or Meter 2 Name
+    Maximum,                 !- Aggregation Type for Variable or Meter 2
+    Cond Loop Inlet Temp,    !- Variable or Meter 3 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 3
+    Cond Loop Outlet Temp,   !- Variable or Meter 4 Name
+    ValueWhenMaximumOrMinimum,  !- Aggregation Type for Variable or Meter 4
+    Cond Loop Heating Demand,!- Variable or Meter 5 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 5
+    Cond Loop Heating Demand,!- Variable or Meter 6 Name
+    Maximum;                 !- Aggregation Type for Variable or Meter 6
+
+Output:Table:Monthly,
+    Zone Temperature Oscillation Report,  !- Name
+    ,                        !- Digits After Decimal
+    Time Zone Temperature Oscillating,  !- Variable or Meter 1 Name
+    HoursNonZero,            !- Aggregation Type for Variable or Meter 1
+    Zone People Number Of Occupants,  !- Variable or Meter 2 Name
+    SumOrAverageDuringHoursShown;  !- Aggregation Type for Variable or Meter 2
+
+Output:Table:Monthly,
+    Air Loop System Energy and Water Use,  !- Name
+    ,                        !- Digits After Decimal
+    Air Loop Hot Water Consumption,  !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Air Loop Steam Consumption,  !- Variable or Meter 2 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 2
+    Air Loop Chilled Water Consumption,  !- Variable or Meter 3 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 3
+    Air Loop Electric Consumption,  !- Variable or Meter 4 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 4
+    Air Loop Gas Consumption,!- Variable or Meter 5 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 5
+    Air Loop Water Consumption,  !- Variable or Meter 6 Name
+    SumOrAverage;            !- Aggregation Type for Variable or Meter 6
+
+Output:Table:Monthly,
+    Air Loop System Component Loads,  !- Name
+    ,                        !- Digits After Decimal
+    Air Loop Fan Heating Energy,  !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Air Loop Total Cooling Coil Energy,  !- Variable or Meter 2 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 2
+    Air Loop Total Heating Coil Energy,  !- Variable or Meter 3 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 3
+    Air Loop Total Heat Exchanger Heating Energy,  !- Variable or Meter 4 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 4
+    Air Loop Total Heat Exchanger Cooling Energy,  !- Variable or Meter 5 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 5
+    Air Loop Total Humidifier Heating Energy,  !- Variable or Meter 6 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 6
+    Air Loop Total Evap Cooler Cooling Energy,  !- Variable or Meter 7 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 7
+    Air Loop Total Desiccant Dehumidifier Cooling Energy,  !- Variable or Meter 8 Name
+    SumOrAverage;            !- Aggregation Type for Variable or Meter 8
+
+Output:Table:Monthly,
+    Air Loop System Component Energy Use,  !- Name
+    ,                        !- Digits After Decimal
+    Air Loop Fan Electric Consumption,  !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Air Loop Heating Coil Hot Water Consumption,  !- Variable or Meter 2 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 2
+    Air Loop Cooling Coil Chilled Water Consumption,  !- Variable or Meter 3 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 3
+    Air Loop DX Heating Coil Electric Consumption,  !- Variable or Meter 4 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 4
+    Air Loop DX Cooling Coil Electric Consumption,  !- Variable or Meter 5 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 5
+    Air Loop Heating Coil Electric Consumption,  !- Variable or Meter 6 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 6
+    Air Loop Heating Coil Gas Consumption,  !- Variable or Meter 7 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 7
+    Air Loop Heating Coil Steam Consumption,  !- Variable or Meter 8 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 8
+    Air Loop Humidifier Electric Consumption,  !- Variable or Meter 9 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 9
+    Air Loop Evap Cooler Electric Consumption,  !- Variable or Meter 10 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 10
+    Air Loop Desiccant Dehumidifier Electric Consumption,  !- Variable or Meter 11 Name
+    SumOrAverage;            !- Aggregation Type for Variable or Meter 11
+
+Output:Table:Monthly,
+    Mechanical Ventilation Loads,  !- Name
+    ,                        !- Digits After Decimal
+    Zone Mechanical Ventilation No Load Heat Removal,  !- Variable or Meter 1 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 1
+    Zone Mechanical Ventilation Cooling Load Increase,  !- Variable or Meter 2 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 2
+    Zone Mech Ventilation Cooling Load Increase: OverHeating,  !- Variable or Meter 3 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 3
+    Zone Mechanical Ventilation Cooling Load Decrease,  !- Variable or Meter 4 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 4
+    Zone Mechanical Ventilation No Load Heat Addition,  !- Variable or Meter 5 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 5
+    Zone Mechanical Ventilation Heating Load Increase,  !- Variable or Meter 6 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 6
+    Zone Mech Ventilation Heating Load Increase: OverCooling,  !- Variable or Meter 7 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 7
+    Zone Mechanical Ventilation Heating Load Decrease,  !- Variable or Meter 8 Name
+    SumOrAverage,            !- Aggregation Type for Variable or Meter 8
+    Zone Mechanical Ventilation Air Change Rate,  !- Variable or Meter 9 Name
+    SumOrAverage;            !- Aggregation Type for Variable or Meter 9
+

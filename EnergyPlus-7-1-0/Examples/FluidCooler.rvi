@@ -1,0 +1,23 @@
+eplusout.eso
+eplusout.csv
+Zone/Sys Air Temperature
+Fluid Cooler Water Inlet Temperature
+Fluid Cooler Water Outlet Temperature
+Fluid Cooler Water Mass Flow Rate
+Fluid Cooler Heat Transfer
+Fluid Cooler Fan Electric Power
+Fluid Cooler Fan Electric Consumption
+Outdoor Dry Bulb
+Outdoor Wet Bulb
+Outdoor Humidity Ratio
+Outdoor Barometric Pressure
+Chilled Water Loop,Plant Loop Cooling Demand
+Chilled Water Loop,Plant Loop Heating Demand
+Chilled Water Loop,Plant Loop InletNode Flowrate
+Chilled Water Loop,Plant Loop InletNode Temperature
+Chilled Water Loop,Plant Loop OutletNode Temperature
+Chilled Water Condenser Loop,Cond Loop Cooling Demand
+Chilled Water Condenser Loop,Cond Loop Heating Demand
+Chilled Water Condenser Loop,Cond Loop Inlet Temp
+Chilled Water Condenser Loop,Cond Loop Outlet Temp
+0

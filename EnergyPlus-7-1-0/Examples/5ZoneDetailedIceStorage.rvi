@@ -1,0 +1,37 @@
+eplusout.eso
+eplusout.csv
+Outdoor Dry Bulb
+Zone/Sys Air Temperature
+Total Water Heating Coil Rate
+Total Water Cooling Coil Rate
+Mixed Air Node 1,System Node Temp
+Main Cooling Coil 1 Outlet Node,System Node Temp
+Main Heating Coil 1 Outlet Node,System Node Temp
+VAV Sys 1 Outlet Node,System Node Temp
+VAV Terminal Damper Position
+Plant Loop OutletNode Temperature
+System Node Setpoint Temp
+Detailed Ice Thermal Storage Load Requested
+Detailed Ice Thermal Storage Fraction Change
+Detailed Ice Thermal Storage End Fraction
+Detailed Ice Thermal Storage Mass Flow Rate
+Detailed Ice Thermal Storage Bypass Mass Flow Rate
+Detailed Ice Thermal Storage Tank Mass Flow Rate
+Detailed Ice Thermal Storage Fluid Inlet Temp
+Detailed Ice Thermal Storage Blended Outlet Temp
+Detailed Ice Thermal Storage Tank Outlet Temp
+Detailed Ice Thermal Storage Cooling/Discharge Rate
+Detailed Ice Thermal Storage Cooling/Discharge Energy
+Detailed Ice Thermal Storage Charging Rate
+Detailed Ice Thermal Storage Charging Energy
+Detailed Ice Thermal Storage Parasitic Electric Power
+Detailed Ice Thermal Storage Parasitic Electric Consumption
+Chiller Evap Heat Trans Rate
+Chiller Evap Water Inlet Temp
+Chiller Evap Water Outlet Temp
+Chiller COP
+Chiller Electric Power
+Chiller Electric Consumption
+Electricity:Plant
+Electricity:Facility
+0

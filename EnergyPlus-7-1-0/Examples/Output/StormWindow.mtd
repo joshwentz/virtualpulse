@@ -1,0 +1,320 @@
+
+ Meters for 7,EAST ZONE LIGHTS 1:Lights Electric Consumption [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:EAST ZONE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:EAST ZONE [J]
+  OnMeter=GeneralLights:InteriorLights:Electricity [J]
+
+ Meters for 68,NORTH ZONE LIGHTS 1:Lights Electric Consumption [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:NORTH ZONE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:NORTH ZONE [J]
+  OnMeter=GeneralLights:InteriorLights:Electricity [J]
+
+ Meters for 89,WEST ZONE ELECEQ 1:Electric Equipment Electric Consumption [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:WEST ZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:WEST ZONE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 130,EAST ZONE ELECEQ 1:Electric Equipment Electric Consumption [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:EAST ZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:EAST ZONE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 141,NORTH ZONE ELECEQ 1:Electric Equipment Electric Consumption [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:NORTH ZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:NORTH ZONE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 160,WEST ZONE:Zone/Sys Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WEST ZONE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:WEST ZONE [J]
+
+ Meters for 211,WEST ZONE:Zone/Sys Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WEST ZONE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:WEST ZONE [J]
+
+ Meters for 235,EAST ZONE:Zone/Sys Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:EAST ZONE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:EAST ZONE [J]
+
+ Meters for 256,EAST ZONE:Zone/Sys Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:EAST ZONE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:EAST ZONE [J]
+
+ Meters for 270,NORTH ZONE:Zone/Sys Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:NORTH ZONE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:NORTH ZONE [J]
+
+ Meters for 291,NORTH ZONE:Zone/Sys Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:NORTH ZONE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:NORTH ZONE [J]
+
+ Meters for 305,ZONE1AIR:Ideal Loads Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 336,ZONE1AIR:Ideal Loads Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 367,ZONE2AIR:Ideal Loads Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 368,ZONE2AIR:Ideal Loads Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 369,ZONE3AIR:Ideal Loads Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 370,ZONE3AIR:Ideal Loads Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 371,Whole Building:Total Electric Energy Purchased [J]
+  OnMeter=ElectricityPurchased:Facility [J]
+  OnMeter=ElectricityPurchased:Plant [J]
+  OnMeter=Cogeneration:ElectricityPurchased [J]
+
+ Meters for 402,Whole Building:Total Electric Energy Surplus [J]
+  OnMeter=ElectricitySurplusSold:Facility [J]
+  OnMeter=ElectricitySurplusSold:Plant [J]
+  OnMeter=Cogeneration:ElectricitySurplusSold [J]
+
+ Meters for 433,Whole Building:Net Electric Energy Purchased [J]
+  OnMeter=ElectricityNet:Facility [J]
+  OnMeter=ElectricityNet:Plant [J]
+  OnMeter=Cogeneration:ElectricityNet [J]
+
+ Meters for 464,Site:Carbon Equivalent Pollution From NOx [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 485,Site:Carbon Equivalent Pollution From CH4 [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 486,Site:Carbon Equivalent Pollution From CO2 [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
+  EAST ZONE LIGHTS 1:Lights Electric Consumption
+  NORTH ZONE LIGHTS 1:Lights Electric Consumption
+  WEST ZONE ELECEQ 1:Electric Equipment Electric Consumption
+  EAST ZONE ELECEQ 1:Electric Equipment Electric Consumption
+  NORTH ZONE ELECEQ 1:Electric Equipment Electric Consumption
+
+ For Meter=Electricity:Building [J], ResourceType=Electricity, Group=Building, contents are:
+  EAST ZONE LIGHTS 1:Lights Electric Consumption
+  NORTH ZONE LIGHTS 1:Lights Electric Consumption
+  WEST ZONE ELECEQ 1:Electric Equipment Electric Consumption
+  EAST ZONE ELECEQ 1:Electric Equipment Electric Consumption
+  NORTH ZONE ELECEQ 1:Electric Equipment Electric Consumption
+
+ For Meter=Electricity:Zone:EAST ZONE [J], ResourceType=Electricity, Group=Zone, contents are:
+  EAST ZONE LIGHTS 1:Lights Electric Consumption
+  EAST ZONE ELECEQ 1:Electric Equipment Electric Consumption
+
+ For Meter=InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  EAST ZONE LIGHTS 1:Lights Electric Consumption
+  NORTH ZONE LIGHTS 1:Lights Electric Consumption
+
+ For Meter=InteriorLights:Electricity:Zone:EAST ZONE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  EAST ZONE LIGHTS 1:Lights Electric Consumption
+
+ For Meter=GeneralLights:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  EAST ZONE LIGHTS 1:Lights Electric Consumption
+  NORTH ZONE LIGHTS 1:Lights Electric Consumption
+
+ For Meter=Electricity:Zone:NORTH ZONE [J], ResourceType=Electricity, Group=Zone, contents are:
+  NORTH ZONE LIGHTS 1:Lights Electric Consumption
+  NORTH ZONE ELECEQ 1:Electric Equipment Electric Consumption
+
+ For Meter=InteriorLights:Electricity:Zone:NORTH ZONE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  NORTH ZONE LIGHTS 1:Lights Electric Consumption
+
+ For Meter=Electricity:Zone:WEST ZONE [J], ResourceType=Electricity, Group=Zone, contents are:
+  WEST ZONE ELECEQ 1:Electric Equipment Electric Consumption
+
+ For Meter=InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  WEST ZONE ELECEQ 1:Electric Equipment Electric Consumption
+  EAST ZONE ELECEQ 1:Electric Equipment Electric Consumption
+  NORTH ZONE ELECEQ 1:Electric Equipment Electric Consumption
+
+ For Meter=InteriorEquipment:Electricity:Zone:WEST ZONE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  WEST ZONE ELECEQ 1:Electric Equipment Electric Consumption
+
+ For Meter=General:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  WEST ZONE ELECEQ 1:Electric Equipment Electric Consumption
+  EAST ZONE ELECEQ 1:Electric Equipment Electric Consumption
+  NORTH ZONE ELECEQ 1:Electric Equipment Electric Consumption
+
+ For Meter=InteriorEquipment:Electricity:Zone:EAST ZONE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  EAST ZONE ELECEQ 1:Electric Equipment Electric Consumption
+
+ For Meter=InteriorEquipment:Electricity:Zone:NORTH ZONE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  NORTH ZONE ELECEQ 1:Electric Equipment Electric Consumption
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  WEST ZONE:Zone/Sys Sensible Heating Energy
+  WEST ZONE:Zone/Sys Sensible Cooling Energy
+  EAST ZONE:Zone/Sys Sensible Heating Energy
+  EAST ZONE:Zone/Sys Sensible Cooling Energy
+  NORTH ZONE:Zone/Sys Sensible Heating Energy
+  NORTH ZONE:Zone/Sys Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  WEST ZONE:Zone/Sys Sensible Heating Energy
+  WEST ZONE:Zone/Sys Sensible Cooling Energy
+  EAST ZONE:Zone/Sys Sensible Heating Energy
+  EAST ZONE:Zone/Sys Sensible Cooling Energy
+  NORTH ZONE:Zone/Sys Sensible Heating Energy
+  NORTH ZONE:Zone/Sys Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:WEST ZONE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  WEST ZONE:Zone/Sys Sensible Heating Energy
+  WEST ZONE:Zone/Sys Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  WEST ZONE:Zone/Sys Sensible Heating Energy
+  EAST ZONE:Zone/Sys Sensible Heating Energy
+  NORTH ZONE:Zone/Sys Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:WEST ZONE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  WEST ZONE:Zone/Sys Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  WEST ZONE:Zone/Sys Sensible Cooling Energy
+  EAST ZONE:Zone/Sys Sensible Cooling Energy
+  NORTH ZONE:Zone/Sys Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:WEST ZONE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  WEST ZONE:Zone/Sys Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:EAST ZONE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  EAST ZONE:Zone/Sys Sensible Heating Energy
+  EAST ZONE:Zone/Sys Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:EAST ZONE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  EAST ZONE:Zone/Sys Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:EAST ZONE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  EAST ZONE:Zone/Sys Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:NORTH ZONE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  NORTH ZONE:Zone/Sys Sensible Heating Energy
+  NORTH ZONE:Zone/Sys Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:NORTH ZONE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  NORTH ZONE:Zone/Sys Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:NORTH ZONE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  NORTH ZONE:Zone/Sys Sensible Cooling Energy
+
+ For Meter=DistrictHeating:Facility [J], ResourceType=DistrictHeating, contents are:
+  ZONE1AIR:Ideal Loads Total Heating Energy
+  ZONE2AIR:Ideal Loads Total Heating Energy
+  ZONE3AIR:Ideal Loads Total Heating Energy
+
+ For Meter=DistrictHeating:HVAC [J], ResourceType=DistrictHeating, Group=HVAC, contents are:
+  ZONE1AIR:Ideal Loads Total Heating Energy
+  ZONE2AIR:Ideal Loads Total Heating Energy
+  ZONE3AIR:Ideal Loads Total Heating Energy
+
+ For Meter=Heating:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=Heating, contents are:
+  ZONE1AIR:Ideal Loads Total Heating Energy
+  ZONE2AIR:Ideal Loads Total Heating Energy
+  ZONE3AIR:Ideal Loads Total Heating Energy
+
+ For Meter=DistrictCooling:Facility [J], ResourceType=DistrictCooling, contents are:
+  ZONE1AIR:Ideal Loads Total Cooling Energy
+  ZONE2AIR:Ideal Loads Total Cooling Energy
+  ZONE3AIR:Ideal Loads Total Cooling Energy
+
+ For Meter=DistrictCooling:HVAC [J], ResourceType=DistrictCooling, Group=HVAC, contents are:
+  ZONE1AIR:Ideal Loads Total Cooling Energy
+  ZONE2AIR:Ideal Loads Total Cooling Energy
+  ZONE3AIR:Ideal Loads Total Cooling Energy
+
+ For Meter=Cooling:DistrictCooling [J], ResourceType=DistrictCooling, EndUse=Cooling, contents are:
+  ZONE1AIR:Ideal Loads Total Cooling Energy
+  ZONE2AIR:Ideal Loads Total Cooling Energy
+  ZONE3AIR:Ideal Loads Total Cooling Energy
+
+ For Meter=ElectricityPurchased:Facility [J], ResourceType=ElectricityPurchased, contents are:
+  Whole Building:Total Electric Energy Purchased
+
+ For Meter=ElectricityPurchased:Plant [J], ResourceType=ElectricityPurchased, Group=Plant, contents are:
+  Whole Building:Total Electric Energy Purchased
+
+ For Meter=Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Total Electric Energy Purchased
+
+ For Meter=ElectricitySurplusSold:Facility [J], ResourceType=ElectricitySurplusSold, contents are:
+  Whole Building:Total Electric Energy Surplus
+
+ For Meter=ElectricitySurplusSold:Plant [J], ResourceType=ElectricitySurplusSold, Group=Plant, contents are:
+  Whole Building:Total Electric Energy Surplus
+
+ For Meter=Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Total Electric Energy Surplus
+
+ For Meter=ElectricityNet:Facility [J], ResourceType=ElectricityNet, contents are:
+  Whole Building:Net Electric Energy Purchased
+
+ For Meter=ElectricityNet:Plant [J], ResourceType=ElectricityNet, Group=Plant, contents are:
+  Whole Building:Net Electric Energy Purchased
+
+ For Meter=Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Net Electric Energy Purchased
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Carbon Equivalent Pollution From NOx
+  Site:Carbon Equivalent Pollution From CH4
+  Site:Carbon Equivalent Pollution From CO2
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Carbon Equivalent Pollution From NOx
+  Site:Carbon Equivalent Pollution From CH4
+  Site:Carbon Equivalent Pollution From CO2

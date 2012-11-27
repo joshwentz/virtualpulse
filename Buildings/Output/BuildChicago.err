@@ -1,0 +1,71 @@
+Program Version,EnergyPlus, Linux, VERSION 7.1.0.012, YMD=2012.07.31 17:48,IDD_Version 7.1.0.012
+   ** Warning ** Output:PreprocessorMessage="EPXMLPreProc2" has the following Warning conditions:
+   **   ~~~   ** Problem with the width for requested floor area and
+   **   ~~~   ** perimeter depth.  Reduced perimeter depth from 4.57 to
+   **   ~~~   ** 3.656 to accomodate perimeter and core layout.
+   ************* Beginning Zone Sizing Calculations
+   ** Warning ** Weather file location will be used rather than entered Location object.
+   **   ~~~   ** ..Location object=USA IL-CHICAGO-OHARE
+   **   ~~~   ** ..Weather File Location=San Francisco Intl Ap CA USA TMY3 WMO#=724940
+   **   ~~~   ** ..due to location differences, Latitude difference=[4.15] degrees, Longitude difference=[34.65] degrees.
+   **   ~~~   ** ..Time Zone difference=[2.0] hour(s), Elevation difference=[98.95] percent, [188.00] meters.
+   ** Warning ** GetSurfaceData: CAUTION -- Interzone surfaces are occuring in the same zone(s).
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual occurrences.
+   ** Warning ** CheckUsedConstructions: There are 18 nominally unused constructions in input.
+   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
+   ************* Beginning System Sizing Calculations
+   ************* Beginning Plant Sizing Calculations
+   ** Warning ** The design coil load is zero for Coil:Heating:Water PVAV_REHEAT_1_HEATC 1
+   **   ~~~   ** The autosize value for maximum water flow rate is zero
+   **   ~~~   ** To change this, input a value for UA, change the heating design day, or lower
+   **   ~~~   **   the system heating design supply air temperature
+   ** Warning ** Output:Meter: invalid Name="ELECTRICITYPRODUCED:FACILITY" - not found.
+   ** Warning ** Output:Meter: invalid Name="REFRIGERATION:ELECTRICITY" - not found.
+   ** Warning ** Output:Meter: invalid Name="ZONE EXHAUST FANS:FANS:ELECTRICITY" - not found.
+   ** Warning ** Output:Meter: invalid Name="EXTERIORLIGHTS:ELECTRICITY" - not found.
+   ** Warning ** Output:Meter: invalid Name="WATER HEATER:WATERSYSTEMS:GAS" - not found.
+   ** Warning ** Output:Meter: invalid Name="WATER:FACILITY" - not found.
+   ** Warning ** Output:Meter:MeterFileOnly: invalid Name="ELECTRICITYPRODUCED:FACILITY" - not found.
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ** Warning ** UtilityCost:Tariff: The meter chosen ELECTRICITYNET:FACILITY is not typically used with the buyFromUtility option. Usually
+   **   ~~~   **   the Electricity:Facility meter or the ElectricityPurchased:Facility is selected when the buyFromUtility option is used.
+   **   ~~~   **   In UtilityCost:Tariff named PSI_LLF_LOWLOADFACTORSERVICE
+   ** Warning ** UtilityCost:Tariff: The meter chosen ELECTRICITYNET:FACILITY is not typically used with the buyFromUtility option. Usually
+   **   ~~~   **   the Electricity:Facility meter or the ElectricityPurchased:Facility is selected when the buyFromUtility option is used.
+   **   ~~~   **   In UtilityCost:Tariff named PSI_CS_COMMERCIALELECTRICSERVICE
+   ** Warning ** Calculated Relative Humidity out of range (PsyRhFnTdbWPb)
+   **   ~~~   **  Routine=CalcMultiSpeedDXCoil:lowspeedoutlet, Environment=San Francisco Intl Ap CA USA TMY3 WMO#=724940, at Simulation time=01/17 10:45 - 11:00
+   **   ~~~   **  Dry-Bulb= 6.51 Humidity Ratio= 6.066E-003 Calculated Relative Humidity [%]= 101.65
+   **   ~~~   ** Relative Humidity being reset to 100.0%
+   ************* Simulation Error Summary *************
+   ************* There are 15 unused schedules in input.
+   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
+   *************
+   ************* ===== Recurring Error Summary =====
+   ************* The following recurring error messages occurred.
+   *************
+   *************  ** Warning ** Calculated Relative Humidity out of range (PsyRhFnTdbWPb)
+   *************  **   ~~~   **   This error occurred 3605 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=105.903986 %  Min=101.001238 %
+   *************
+   *************
+   ************* ===== Final Error Summary =====
+   ************* The following error categories occurred.  Consider correcting or noting.
+   ************* Interzone surfaces - different zones
+   ************* Nominally Unused Constructions
+   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause
+   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm
+   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
+   *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 3 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 3619 Warning; 0 Severe Errors; Elapsed Time=00hr 04min 22.11sec

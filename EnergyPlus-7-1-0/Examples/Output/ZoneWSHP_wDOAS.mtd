@@ -1,0 +1,294 @@
+
+ Meters for 7,SPACE1-1 LIGHTS:Lights Electric Consumption [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:SPACE1-1 [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:SPACE1-1 [J]
+  OnMeter=GeneralLights:InteriorLights:Electricity [J]
+
+ Meters for 68,SPACE1-1_MISCPLUG_EQUIP:Electric Equipment Electric Consumption [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:SPACE1-1 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:SPACE1-1 [J]
+  OnMeter=MiscPlug:InteriorEquipment:Electricity [J]
+
+ Meters for 99,SPACE1-1:Zone/Sys Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:SPACE1-1 [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:SPACE1-1 [J]
+
+ Meters for 150,SPACE1-1:Zone/Sys Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:SPACE1-1 [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:SPACE1-1 [J]
+
+ Meters for 176,Whole Building:Total Electric Energy Purchased [J]
+  OnMeter=ElectricityPurchased:Facility [J]
+  OnMeter=ElectricityPurchased:Plant [J]
+  OnMeter=Cogeneration:ElectricityPurchased [J]
+
+ Meters for 207,Whole Building:Total Electric Energy Surplus [J]
+  OnMeter=ElectricitySurplusSold:Facility [J]
+  OnMeter=ElectricitySurplusSold:Plant [J]
+  OnMeter=Cogeneration:ElectricitySurplusSold [J]
+
+ Meters for 238,Whole Building:Net Electric Energy Purchased [J]
+  OnMeter=ElectricityNet:Facility [J]
+  OnMeter=ElectricityNet:Plant [J]
+  OnMeter=Cogeneration:ElectricityNet [J]
+
+ Meters for 271,SUPPLY FAN 1:Fan Electric Consumption [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 304,ZONE 1 FAN:Fan Electric Consumption [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 305,SYS 1 HEAT PUMP COOLING MODE:WatertoAirHP Cooling Electric Consumption [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 316,SYS 1 HEAT PUMP COOLING MODE:WatertoAirHP Load Side Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 339,SYS 1 HEAT PUMP COOLING MODE:WatertoAirHP Source Side Cooling Energy [J]
+  OnMeter=PlantLoopCoolingDemand:Facility [J]
+  OnMeter=PlantLoopCoolingDemand:HVAC [J]
+  OnMeter=CoolingCoils:PlantLoopCoolingDemand [J]
+
+ Meters for 370,SYS 1 HEAT PUMP HEATING MODE:WatertoAirHP Heating Electric Consumption [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+
+ Meters for 381,SYS 1 HEAT PUMP HEATING MODE:WatertoAirHP Load Side Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 392,SYS 1 HEAT PUMP HEATING MODE:WatertoAirHP Source Side Heating Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 451,HEAT PUMP DX SUPP HEATING COIL 1:Heating Coil Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 453,HEAT PUMP DX SUPP HEATING COIL 1:Heating Coil Gas Consumption [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:HVAC [J]
+  OnMeter=Heating:Gas [J]
+
+ Meters for 485,HEAT PUMP DX SUPP HEATING COIL 1:Heating Coil Electric Consumption [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+
+ Meters for 486,HEAT PUMP DX SUPP HEATING COIL 1:Heating Coil Parasitic Gas Consumption [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:HVAC [J]
+  OnMeter=Heating:Gas [J]
+
+ Meters for 509,COND CIRC PUMP:Pump Electric Consumption [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Pumps:Electricity [J]
+
+ Meters for 545,Site:Carbon Equivalent Pollution From NOx [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 566,Site:Carbon Equivalent Pollution From CH4 [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 567,Site:Carbon Equivalent Pollution From CO2 [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
+  SPACE1-1 LIGHTS:Lights Electric Consumption
+  SPACE1-1_MISCPLUG_EQUIP:Electric Equipment Electric Consumption
+  SUPPLY FAN 1:Fan Electric Consumption
+  ZONE 1 FAN:Fan Electric Consumption
+  SYS 1 HEAT PUMP COOLING MODE:WatertoAirHP Cooling Electric Consumption
+  SYS 1 HEAT PUMP HEATING MODE:WatertoAirHP Heating Electric Consumption
+  HEAT PUMP DX SUPP HEATING COIL 1:Heating Coil Electric Consumption
+  COND CIRC PUMP:Pump Electric Consumption
+
+ For Meter=Electricity:Building [J], ResourceType=Electricity, Group=Building, contents are:
+  SPACE1-1 LIGHTS:Lights Electric Consumption
+  SPACE1-1_MISCPLUG_EQUIP:Electric Equipment Electric Consumption
+
+ For Meter=Electricity:Zone:SPACE1-1 [J], ResourceType=Electricity, Group=Zone, contents are:
+  SPACE1-1 LIGHTS:Lights Electric Consumption
+  SPACE1-1_MISCPLUG_EQUIP:Electric Equipment Electric Consumption
+
+ For Meter=InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  SPACE1-1 LIGHTS:Lights Electric Consumption
+
+ For Meter=InteriorLights:Electricity:Zone:SPACE1-1 [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  SPACE1-1 LIGHTS:Lights Electric Consumption
+
+ For Meter=GeneralLights:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  SPACE1-1 LIGHTS:Lights Electric Consumption
+
+ For Meter=InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  SPACE1-1_MISCPLUG_EQUIP:Electric Equipment Electric Consumption
+
+ For Meter=InteriorEquipment:Electricity:Zone:SPACE1-1 [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  SPACE1-1_MISCPLUG_EQUIP:Electric Equipment Electric Consumption
+
+ For Meter=MiscPlug:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  SPACE1-1_MISCPLUG_EQUIP:Electric Equipment Electric Consumption
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  SPACE1-1:Zone/Sys Sensible Heating Energy
+  SPACE1-1:Zone/Sys Sensible Cooling Energy
+  SYS 1 HEAT PUMP COOLING MODE:WatertoAirHP Load Side Total Cooling Energy
+  SYS 1 HEAT PUMP HEATING MODE:WatertoAirHP Load Side Total Heating Energy
+  HEAT PUMP DX SUPP HEATING COIL 1:Heating Coil Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  SPACE1-1:Zone/Sys Sensible Heating Energy
+  SPACE1-1:Zone/Sys Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:SPACE1-1 [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  SPACE1-1:Zone/Sys Sensible Heating Energy
+  SPACE1-1:Zone/Sys Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  SPACE1-1:Zone/Sys Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:SPACE1-1 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  SPACE1-1:Zone/Sys Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  SPACE1-1:Zone/Sys Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:SPACE1-1 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  SPACE1-1:Zone/Sys Sensible Cooling Energy
+
+ For Meter=ElectricityPurchased:Facility [J], ResourceType=ElectricityPurchased, contents are:
+  Whole Building:Total Electric Energy Purchased
+
+ For Meter=ElectricityPurchased:Plant [J], ResourceType=ElectricityPurchased, Group=Plant, contents are:
+  Whole Building:Total Electric Energy Purchased
+
+ For Meter=Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Total Electric Energy Purchased
+
+ For Meter=ElectricitySurplusSold:Facility [J], ResourceType=ElectricitySurplusSold, contents are:
+  Whole Building:Total Electric Energy Surplus
+
+ For Meter=ElectricitySurplusSold:Plant [J], ResourceType=ElectricitySurplusSold, Group=Plant, contents are:
+  Whole Building:Total Electric Energy Surplus
+
+ For Meter=Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Total Electric Energy Surplus
+
+ For Meter=ElectricityNet:Facility [J], ResourceType=ElectricityNet, contents are:
+  Whole Building:Net Electric Energy Purchased
+
+ For Meter=ElectricityNet:Plant [J], ResourceType=ElectricityNet, Group=Plant, contents are:
+  Whole Building:Net Electric Energy Purchased
+
+ For Meter=Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Net Electric Energy Purchased
+
+ For Meter=Electricity:HVAC [J], ResourceType=Electricity, Group=HVAC, contents are:
+  SUPPLY FAN 1:Fan Electric Consumption
+  ZONE 1 FAN:Fan Electric Consumption
+  SYS 1 HEAT PUMP COOLING MODE:WatertoAirHP Cooling Electric Consumption
+  SYS 1 HEAT PUMP HEATING MODE:WatertoAirHP Heating Electric Consumption
+  HEAT PUMP DX SUPP HEATING COIL 1:Heating Coil Electric Consumption
+
+ For Meter=Fans:Electricity [J], ResourceType=Electricity, EndUse=Fans, contents are:
+  SUPPLY FAN 1:Fan Electric Consumption
+  ZONE 1 FAN:Fan Electric Consumption
+
+ For Meter=General:Fans:Electricity [J], ResourceType=Electricity, EndUse=Fans, contents are:
+  SUPPLY FAN 1:Fan Electric Consumption
+  ZONE 1 FAN:Fan Electric Consumption
+
+ For Meter=Cooling:Electricity [J], ResourceType=Electricity, EndUse=Cooling, contents are:
+  SYS 1 HEAT PUMP COOLING MODE:WatertoAirHP Cooling Electric Consumption
+
+ For Meter=EnergyTransfer:HVAC [J], ResourceType=EnergyTransfer, Group=HVAC, contents are:
+  SYS 1 HEAT PUMP COOLING MODE:WatertoAirHP Load Side Total Cooling Energy
+  SYS 1 HEAT PUMP HEATING MODE:WatertoAirHP Load Side Total Heating Energy
+  HEAT PUMP DX SUPP HEATING COIL 1:Heating Coil Energy
+
+ For Meter=CoolingCoils:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=CoolingCoils, contents are:
+  SYS 1 HEAT PUMP COOLING MODE:WatertoAirHP Load Side Total Cooling Energy
+
+ For Meter=PlantLoopCoolingDemand:Facility [J], ResourceType=PlantLoopCoolingDemand, contents are:
+  SYS 1 HEAT PUMP COOLING MODE:WatertoAirHP Source Side Cooling Energy
+
+ For Meter=PlantLoopCoolingDemand:HVAC [J], ResourceType=PlantLoopCoolingDemand, Group=HVAC, contents are:
+  SYS 1 HEAT PUMP COOLING MODE:WatertoAirHP Source Side Cooling Energy
+
+ For Meter=CoolingCoils:PlantLoopCoolingDemand [J], ResourceType=PlantLoopCoolingDemand, EndUse=CoolingCoils, contents are:
+  SYS 1 HEAT PUMP COOLING MODE:WatertoAirHP Source Side Cooling Energy
+
+ For Meter=Heating:Electricity [J], ResourceType=Electricity, EndUse=Heating, contents are:
+  SYS 1 HEAT PUMP HEATING MODE:WatertoAirHP Heating Electric Consumption
+  HEAT PUMP DX SUPP HEATING COIL 1:Heating Coil Electric Consumption
+
+ For Meter=HeatingCoils:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=HeatingCoils, contents are:
+  SYS 1 HEAT PUMP HEATING MODE:WatertoAirHP Load Side Total Heating Energy
+  HEAT PUMP DX SUPP HEATING COIL 1:Heating Coil Energy
+
+ For Meter=PlantLoopHeatingDemand:Facility [J], ResourceType=PlantLoopHeatingDemand, contents are:
+  SYS 1 HEAT PUMP HEATING MODE:WatertoAirHP Source Side Heating Energy
+
+ For Meter=PlantLoopHeatingDemand:HVAC [J], ResourceType=PlantLoopHeatingDemand, Group=HVAC, contents are:
+  SYS 1 HEAT PUMP HEATING MODE:WatertoAirHP Source Side Heating Energy
+
+ For Meter=HeatingCoils:PlantLoopHeatingDemand [J], ResourceType=PlantLoopHeatingDemand, EndUse=HeatingCoils, contents are:
+  SYS 1 HEAT PUMP HEATING MODE:WatertoAirHP Source Side Heating Energy
+
+ For Meter=Gas:Facility [J], ResourceType=Gas, contents are:
+  HEAT PUMP DX SUPP HEATING COIL 1:Heating Coil Gas Consumption
+  HEAT PUMP DX SUPP HEATING COIL 1:Heating Coil Parasitic Gas Consumption
+
+ For Meter=Gas:HVAC [J], ResourceType=Gas, Group=HVAC, contents are:
+  HEAT PUMP DX SUPP HEATING COIL 1:Heating Coil Gas Consumption
+  HEAT PUMP DX SUPP HEATING COIL 1:Heating Coil Parasitic Gas Consumption
+
+ For Meter=Heating:Gas [J], ResourceType=Gas, EndUse=Heating, contents are:
+  HEAT PUMP DX SUPP HEATING COIL 1:Heating Coil Gas Consumption
+  HEAT PUMP DX SUPP HEATING COIL 1:Heating Coil Parasitic Gas Consumption
+
+ For Meter=Electricity:Plant [J], ResourceType=Electricity, Group=Plant, contents are:
+  COND CIRC PUMP:Pump Electric Consumption
+
+ For Meter=Pumps:Electricity [J], ResourceType=Electricity, EndUse=Pumps, contents are:
+  COND CIRC PUMP:Pump Electric Consumption
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Carbon Equivalent Pollution From NOx
+  Site:Carbon Equivalent Pollution From CH4
+  Site:Carbon Equivalent Pollution From CO2
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Carbon Equivalent Pollution From NOx
+  Site:Carbon Equivalent Pollution From CH4
+  Site:Carbon Equivalent Pollution From CO2

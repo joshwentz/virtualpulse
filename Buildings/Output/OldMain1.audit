@@ -1,0 +1,99 @@
+  Processing Data Dictionary (Energy+.idd) File -- Complete
+  Maximum number of Alpha Args=        4500
+  Maximum number of Numeric Args=        3200
+  Number of Object Definitions=         666
+  Number of Section Definitions=           2
+  Processing Input Data File (in.idf) -- Start
+      1 Version, 7.1.0;
+      2 
+      3 Building,
+      4   OldMain,  !- Name
+      5   0.0000,  !- North Axis [Sketchup Model North = True North]
+      6   City,  !- Terrain [IDF Editor Default = City][Sketchup Default = Suburbs]
+      7   0.0400,  !- Loads Convergence Tolerance Value [Watts]
+      8   0.2000,  !- Temperature Convergence Tolerance Value [deg C]
+      9   FullInteriorAndExterior,  !- Solar Distribution [Space must be convex for ext & int]
+     10   25,  !- Max Number of Warmup Days
+     11   6;  !- Min Number of Warmup Days
+     12 
+     13 GlobalGeometryRules,  !- Previously called SurfaceGeometry
+     14   UpperLeftCorner,  !- Starting Vertex Position
+     15   Counterclockwise,  !- Vertex Entry Direction
+     16   Relative,  !- Coordinate System [IDF Editor Default = relative][Sketchup Default = WORLD]
+     17   Relative;  !- Daylighting Reference Point Coordinate System
+     18 
+     19 SimulationControl, !- Previously called UseWeatherFile
+     20   Yes,  !- Do Zone Sizing Calculation
+     21   Yes,  !- Do System Sizing Calculation
+     22   Yes,  !- Do Plant Sizing Calculation
+     23   No,  !- Run Simulation for Sizing Periods
+     24   Yes;  !- Run Simulation for Weather File Run Periods
+     25 
+     26 RunPeriod,
+     27   ,  !- Name [Default = weather file title]
+     28   1, !- Begin Month
+     29   1, !- Begin Day of Month
+     30   12, !- End Month
+     31   31, !- End Day of Month
+     32   Sunday;  !- Day of Week for Start Day
+   ** Warning ** IP: IDF line~32 Object=RUNPERIOD, name=, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   **   Add   ** YES   ! field=>Use Weather File Holidays and Special Days
+   **   Add   ** YES   ! field=>Use Weather File Daylight Saving Period
+   **   Add   ** NO   ! field=>Apply Weekend Holiday Rule
+   **   Add   ** YES   ! field=>Use Weather File Rain Indicators
+   **   Add   ** YES   ! field=>Use Weather File Snow Indicators
+     33 
+     34 OutputControl:Table:Style,
+     35   HTML; !- Column Separator
+     36 
+     37 Output:Table:SummaryReports,
+     38   AnnualBuildingUtilityPerformanceSummary,  !- Report Name
+     39   InputVerificationandResultsSummary,
+     40   ClimaticDataSummary,
+  Processing Input Data File (in.idf) -- Complete
+  Number of IDF "Lines"=           7
+  Maximum number of Alpha IDF Args=           7
+  Maximum number of Numeric IDF Args=           5
+  Number of IDF "Lines"=           7
+  Number of Defaulted Fields=           0
+  Number of Fields with Defaults=          21
+  Number of Autosized Fields=           0
+  Number of Autosizable Fields =           0
+  Number of Autocalculated Fields=           0
+  Number of Autocalculatable Fields =           0
+ Getting object=VERSION
+ Getting object=SIMULATIONCONTROL
+ Getting object=RUNPERIOD
+  Processing Schedule Input -- Start
+  Processing Schedule Input -- Complete
+ Getting object=BUILDING
+ Getting object=GLOBALGEOMETRYRULES
+ Getting object=OUTPUTCONTROL:TABLE:STYLE
+ Getting object=OUTPUT:TABLE:SUMMARYREPORTS
+ NumOfRVariable=          42
+ NumOfRVariable(Total)=          42
+ NumOfRVariable(Actual)=           3
+ NumOfRVariable(Summed)=           3
+ NumOfRVariable(Meter)=           3
+ NumOfIVariable=           9
+ NumOfIVariable(Total)=           9
+ NumOfIVariable(Actual)=           0
+ NumOfIVariable(Summed)=           0
+ MaxRVariable=        1000
+ MaxIVariable=          10
+ NumEnergyMeters=           2
+ NumVarMeterArrays=           3
+ maxUniqueKeyCount=        1500
+ maxNumberOfFigures=           0
+ MonthlyFieldSetInputCount=           0
+ NumConsideredOutputVariables=           0
+ MaxConsideredOutputVariables=       10000
+ numActuatorsUsed=           0
+ numEMSActuatorsAvailable=           0
+ maxEMSActuatorsAvailable=           0
+ numInternalVariablesUsed=           0
+ numEMSInternalVarsAvailable=           0
+ maxEMSInternalVarsAvailable=           0
+ NumOfNodeConnections=           0
+ MaxNumOfNodeConnections=           0

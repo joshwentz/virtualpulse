@@ -1,0 +1,40 @@
+eplusout.eso
+eplusout.csv
+MediumTempSystem,Refrigeration System Total Compressor Electric Power
+MediumTempSystem,Refrigeration System Average Compressor COP
+MediumTempSystem,Refrigeration System Total Compressor Heat Transfer Rate
+MediumTempCondenser,Refrigeration System Condenser Heat Transfer Rate
+Refrigeration Secondary Loop Refrigeration Heat Transfer Rate
+BackRoom,Zone/Sys Air Temperature
+BackRoom,Zone Air Relative Humidity
+SalesFloor,Zone/Sys Air Temperature
+SalesFloor,Zone Air Relative Humidity
+Zone/Sys Sensible Heating Rate
+Zone/Sys Sensible Cooling Rate
+Refrigerated Case Evaporator Total Heat Transfer Rate
+Walk In Evaporator Total Heat Transfer Rate
+MediumTempSystem,Refrigeration System Condensing Temperature
+MediumTempSystem,Refrigeration System Evaporating Temperature
+MediumTempCondenser,Refrigeration System Condenser Fan Electric Power
+Outdoor Dry Bulb
+Outdoor Relative Humidity
+Refrigeration Secondary Loop Pump Electric Power
+Refrigeration Secondary Loop Total Heat Transfer Rate
+Refrigeration Secondary Loop Estimated Refrigerant Inventory
+Refrigeration Secondary Loop Coolant Vol Flow
+Refrigeration Secondary Loop Pipe Heat Gain Rate
+MediumTempSystem,Refrigeration System Total Transferred Load Heat Transfer Rate
+MediumTempSystem,Refrigeration System Net Heat Rejected Rate
+MediumTempCondenser,Refrigeration System Condenser Total Recovered Heat Rate
+MediumTempSystem,Refrigeration System Total Suction Pipe Heat Gain Rate
+MediumTempSystem,Refrigeration System Refrigerant Inventory
+MediumTempSystem,Refrigeration System Estimated Refrigerant Mass Flow
+MediumTempSystem,Refrigeration System Suction Temperature
+MediumTempSystem,Refrigeration System Liquid Temperature to TXV
+MediumTempSystem,Refrigeration System Total Cases and Walk-Ins Heat Transfer Rate
+SalesFloor,Zone Refrigeration Heating Rate,timestep;
+SalesFloor,Zone Refrigeration Sensible Cooling Rate,timestep;
+SalesFloor,Zone Refrigeration Total Cooling Rate,timestep;
+0
+
+

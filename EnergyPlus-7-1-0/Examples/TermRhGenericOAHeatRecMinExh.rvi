@@ -1,0 +1,35 @@
+eplusout.eso
+eplusout.csv
+Outdoor Dry Bulb
+Zone/Sys Air Temperature
+Zone Air Humidity Ratio
+Zone/Sys Sensible Cooling Rate
+Zone/Sys Sensible Heating Rate
+Total Water Cooling Coil Rate
+Total Water Heating Coil Rate
+Heat Exchanger Sensible Heating Rate
+Heat Exchanger Sensible Cooling Rate
+Heat Exchanger Latent Heating Rate
+Heat Exchanger Latent Cooling Rate
+Heat Exchanger Total Heating Rate
+Heat Exchanger Total Cooling Rate
+Heat Recovery Electric Power
+Heat Recovery Sensible Effectiveness
+Heat Recovery Latent Effectiveness
+Heat Recovery Supply Air Bypass Mass Flow
+Heat Recovery Exhaust Air Bypass Mass Flow
+Relief Air Outlet Node,System Node Temp
+Outside Air Inlet Node,System Node Temp
+Heat Recovery Secondary Outlet Node,System Node Temp
+Heat Recovery Outlet Node,System Node Temp
+Relief Air Outlet Node,System Node MassFlowRate
+Outside Air Inlet Node,System Node MassFlowRate
+Heat Recovery Secondary Outlet Node,System Node MassFlowRate
+Heat Recovery Outlet Node,System Node MassFlowRate
+Relief Air Outlet Node,System Node Humidity Ratio
+Outside Air Inlet Node,System Node Humidity Ratio
+Heat Recovery Secondary Outlet Node,System Node Humidity Ratio
+Heat Recovery Outlet Node,System Node Humidity Ratio
+District Heating Rate
+Heat Recovery Defrost Time Fraction
+0

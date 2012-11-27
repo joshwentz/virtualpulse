@@ -1,0 +1,24 @@
+Program Version,EnergyPlus, Linux, VERSION 7.1.0.012, YMD=2012.07.16 09:44,IDD_Version 7.1.0.012
+   ************* Beginning Zone Sizing Calculations
+   ** Warning ** Weather file location will be used rather than entered Location object.
+   **   ~~~   ** ..Location object=DENVER CENTENNIAL CO USA WMO=724666
+   **   ~~~   ** ..Weather File Location=San Francisco Intl Ap CA USA TMY3 WMO#=724940
+   **   ~~~   ** ..due to location differences, Latitude difference=[1.95] degrees, Longitude difference=[17.55] degrees.
+   **   ~~~   ** ..Time Zone difference=[1.0] hour(s), Elevation difference=[99.89] percent, [1791.00] meters.
+   ** Warning ** SetUpDesignDay: Entered DesignDay Barometric Pressure=81560 differs by more than 10% from Standard Barometric Pressure=101301.
+   **   ~~~   ** ...occurs in DesignDay=DENVER CENTENNIAL ANN HTG 99.6% CONDNS DB, Standard Pressure (based on elevation) will be used.
+   ** Warning ** SetUpDesignDay: Entered DesignDay Barometric Pressure=81560 differs by more than 10% from Standard Barometric Pressure=101301.
+   **   ~~~   ** ...occurs in DesignDay=DENVER CENTENNIAL ANN CLG 1% CONDNS DB=>MWB, Standard Pressure (based on elevation) will be used.
+   ** Warning ** GetAirPathData: AirLoopHVAC="DEDICATED OUTDOOR AIR SYSTEM" has no Controllers.
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ************* Simulation Error Summary *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 3 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 4 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  5.65sec

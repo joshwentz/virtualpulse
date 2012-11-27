@@ -1,0 +1,48 @@
+eplusout.eso
+eplusout.csv
+Outdoor Dry Bulb
+Gnd Center Zone,Zone Outdoor Dry Bulb
+Mid Center Zone,Zone Outdoor Dry Bulb
+Top Center Zone,Zone Outdoor Dry Bulb
+Gnd Center OA Node,System Node Temp
+Mid Center OA Node,System Node Temp
+Top Center OA Node,System Node Temp
+Outdoor Wet Bulb
+Gnd Center Zone,Zone Outdoor Wet Bulb
+Mid Center Zone,Zone Outdoor Wet Bulb
+Top Center Zone,Zone Outdoor Wet Bulb
+Wind Speed
+Gnd Center Zone,Zone Outdoor Wind Speed
+Mid Center Zone,Zone Outdoor Wind Speed
+Top Center Zone,Zone Outdoor Wind Speed
+Gnd West Zone,Zone/Sys Sensible Heating Energy
+Gnd Center Zone,Zone/Sys Sensible Heating Energy
+Gnd East Zone,Zone/Sys Sensible Heating Energy
+Gnd Floor List,Zone List Sensible Heating Energy
+Gnd Floor,Zone Group Sensible Heating Energy
+Mid West Zone,Zone/Sys Sensible Heating Energy
+Mid Center Zone,Zone/Sys Sensible Heating Energy
+Mid East Zone,Zone/Sys Sensible Heating Energy
+Mid Floor List,Zone List Sensible Heating Energy
+Mid Floor,Zone Group Sensible Heating Energy
+Top West Zone,Zone/Sys Sensible Heating Energy
+Top Center Zone,Zone/Sys Sensible Heating Energy
+Top East Zone,Zone/Sys Sensible Heating Energy
+Top Floor List,Zone List Sensible Heating Energy
+Top Floor,Zone Group Sensible Heating Energy
+Gnd West Zone,Zone/Sys Sensible Cooling Energy
+Gnd Center Zone,Zone/Sys Sensible Cooling Energy
+Gnd East Zone,Zone/Sys Sensible Cooling Energy
+Gnd Floor List,Zone List Sensible Cooling Energy
+Gnd Floor,Zone Group Sensible Cooling Energy
+Mid West Zone,Zone/Sys Sensible Cooling Energy
+Mid Center Zone,Zone/Sys Sensible Cooling Energy
+Mid East Zone,Zone/Sys Sensible Cooling Energy
+Mid Floor List,Zone List Sensible Cooling Energy
+Mid Floor,Zone Group Sensible Cooling Energy
+Top West Zone,Zone/Sys Sensible Cooling Energy
+Top Center Zone,Zone/Sys Sensible Cooling Energy
+Top East Zone,Zone/Sys Sensible Cooling Energy
+Top Floor List,Zone List Sensible Cooling Energy
+Top Floor,Zone Group Sensible Cooling Energy
+0

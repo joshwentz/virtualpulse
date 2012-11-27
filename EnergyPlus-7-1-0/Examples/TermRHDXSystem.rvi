@@ -1,0 +1,15 @@
+eplusout.eso
+eplusout.csv
+Outdoor Dry Bulb
+Zone/Sys Air Temperature
+Zone Air Humidity Ratio
+Zone/Sys Sensible Cooling Rate
+Zone/Sys Sensible Heating Rate
+Heating Coil Rate
+DX Cooling Coil Electric Power
+Coil System Part Load Ratio
+Air Loop Outlet Node,System Node MassFlowRate
+Air Loop Inlet Node,System Node Temp
+Cooling Coil Air Inlet Node,System Node Temp
+Air Loop Outlet Node,System Node Temp
+0

@@ -1,0 +1,29 @@
+eplusout.eso
+eplusout.csv
+Outdoor Dry Bulb
+Outdoor Wet Bulb
+Zone/Sys Air Temperature
+Zone/Sys Sensible Cooling Rate
+Zone/Sys Sensible Heating Rate
+Evap Cooler Electric Power
+Evap Cooler Water Consumption
+Direct Evap Saturation Efficiency
+Indirect Dry Evap Saturation Efficiency
+Indirect Dry Evap Total Stage Efficiency
+Air Loop Inlet Node,System Node MassFlowRate
+Air Loop Inlet Node,System Node Temp
+Air Loop Inlet Node,System Node Humidity Ratio
+Outside Air Inlet Node,System Node MassFlowRate
+Outside Air Inlet Node,System Node Temp
+Mixed Air Node,System Node MassFlowRate
+Mixed Air Node,System Node Temp
+EvapCoolerIndirectInletAirNode,System Node MassFlowRate
+EvapCoolerIndirectInletAirNode,System Node Temp
+EvapCoolerIndirectInletAirNode,System Node Humidity Ratio
+EvapCoolerDirectInletAirNode,System Node MassFlowRate
+EvapCoolerDirectInletAirNode,System Node Temp
+EvapCoolerDirectInletAirNode,System Node Humidity Ratio
+Air Loop Outlet Node,System Node MassFlowRate
+Air Loop Outlet Node,System Node Temp
+Air Loop Outlet Node,System Node Humidity Ratio
+0

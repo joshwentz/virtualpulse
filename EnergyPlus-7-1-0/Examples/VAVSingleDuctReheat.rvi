@@ -1,0 +1,14 @@
+eplusout.eso
+eplusout.csv
+Outdoor Dry Bulb
+Zone/Sys Air Temperature
+HVACManage Iterations
+SimAir Iterations
+VAV Terminal Damper Position
+Zone/Sys Sensible Cooling Rate
+Zone/Sys Sensible Heating Rate
+Total Water Cooling Coil Rate[W]
+Total Water Heating Coil Rate[W]
+System Node MassFlowRate[kg/s]
+System Node Temp
+0

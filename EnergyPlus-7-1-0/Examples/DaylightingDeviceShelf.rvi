@@ -1,0 +1,15 @@
+eplusout.eso
+eplusout.csv
+Zone/Sys Air Temperature
+Solar Altitude Angle
+Solar Azimuth Angle
+Direct Solar
+Diffuse Solar
+Outside Shelf,Surface Ext Sunlit Area
+Outside Shelf,Surface Ext Solar Incident
+Upper Window,Surface Ext Solar Incident
+Lower Window,Surface Ext Solar Incident
+Window Transmitted Solar
+Daylight Illum at Ref Point 1
+Daylight Illum at Ref Point 2
+0

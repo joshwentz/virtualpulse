@@ -1,0 +1,15 @@
+eplusout.eso
+eplusout.csv
+Outdoor Dry Bulb
+ZONE ONE,Zone Mean Air Temperature
+ZONE ONE,Zone Transmitted Solar
+ZN001:WALL001,Surface Ext Solar Incident
+ZN001:WALL001,Surface Ext Sunlit Fraction
+ZN001:WALL001,Surface Inside Face Temperature
+ZN001:WALL001,Surface Outside Face Temperature
+ZN001:WALL001:WIN001,Window Transmitted Solar
+ZN001:WALL001:WIN001,Surface Ext Solar Incident
+ZN001:WALL001:WIN001,Surface Ext Sunlit Fraction
+ZN001:WALL001:WIN001,Surface Inside Face Temperature
+ZN001:WALL001:WIN001,Surface Outside Face Temperature
+0

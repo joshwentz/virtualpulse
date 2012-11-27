@@ -1,0 +1,45 @@
+Program Version,EnergyPlus, Linux, VERSION 7.1.0.012, YMD=2012.07.16 09:44
+1,5,Environment Title[],Latitude[degrees],Longitude[degrees],Time Zone[],Elevation[m]
+2,6,Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],Hour[],StartMinute[],EndMinute[],DayType
+3,3,Cumulative Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],DayType  ! When Daily Meters Requested
+4,2,Cumulative Days of Simulation[],Month[]  ! When Monthly Meters Requested
+5,1,Cumulative Days of Simulation[] ! When Run Period Meters Requested
+11,9,Electricity:Facility [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+41,9,InteriorLights:Electricity [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+275,9,Electricity:HVAC [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+513,9,Electricity:Plant [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+457,9,Gas:Facility [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+12,11,Electricity:Facility [J] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]
+42,11,InteriorLights:Electricity [J] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]
+276,11,Electricity:HVAC [J] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]
+514,11,Electricity:Plant [J] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]
+458,11,Gas:Facility [J] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]
+End of Data Dictionary
+1,DENVER CENTENNIAL ANN HTG 99.6% CONDNS DB,  37.62,-122.40,  -8.00,   2.00
+4,1,12
+11,156464396.377327,60994.2857142857,21,18,15,4316800.84355443,21, 8,15
+41,8485920.,12780.,21, 1,15,255600.,21,12,15
+275,146380413.228499,48214.2857142857,21,18,15,4290243.14310483,21, 8,15
+457,4800000.,0.0,21, 1,15,4800000.,21, 8,15
+513,1598063.14882797,0.0,21,18,15,17223.4665681423,21, 7,60
+5,1
+12,156464396.377327,60994.2857142857,12,21,18,15,4316800.84355443,12,21, 8,15
+42,8485920.,12780.,12,21, 1,15,255600.,12,21,12,15
+276,146380413.228499,48214.2857142857,12,21,18,15,4290243.14310483,12,21, 8,15
+458,4800000.,0.0,12,21, 1,15,4800000.,12,21, 8,15
+514,1598063.14882797,0.0,12,21,18,15,17223.4665681423,12,21, 7,60
+1,DENVER CENTENNIAL ANN CLG 1% CONDNS DB=>MWB,  37.62,-122.40,  -8.00,   2.00
+4,1, 7
+11,39093644.4102853,247955.965714286,21, 1,15,857989.872361044,21,16,15
+41,8485920.,12780.,21, 1,15,255600.,21,12,15
+275,12211480.922256,48214.2857142857,21, 1,15,410258.612678332,21,15,15
+457,0.0,0.0,21, 1,15,0.0,21, 1,15
+513,447922.208029377,0.0,21, 1,15,17227.9697385525,21,16,60
+5,1
+12,39093644.4102853,247955.965714286, 7,21, 1,15,857989.872361044, 7,21,16,15
+42,8485920.,12780., 7,21, 1,15,255600., 7,21,12,15
+276,12211480.922256,48214.2857142857, 7,21, 1,15,410258.612678332, 7,21,15,15
+458,0.0,0.0, 7,21, 1,15,0.0, 7,21, 1,15
+514,447922.208029377,0.0, 7,21, 1,15,17227.9697385525, 7,21,16,60
+End of Data
+ Number of Records Written=          20

@@ -1,0 +1,24 @@
+eplusout.eso
+eplusout.csv
+Outdoor Dry Bulb
+Zone/Sys Air Temperature
+Zone/Sys Sensible Cooling Rate
+Zone/Sys Sensible Heating Rate
+Total Water Heating Coil Rate
+SPACE1-1 In Node,System Node MassFlowRate
+SPACE1-1 In Node,System Node Temp
+SPACE2-1 In Node,System Node MassFlowRate
+SPACE2-1 In Node,System Node Temp
+Total Water Cooling Coil Rate
+Sensible Water Cooling Coil Rate
+Mixed Air Node 1,System Node Temp
+Main Cooling Coil 1 Outlet Node,System Node Temp
+Main Heating Coil 1 Outlet Node,System Node Temp
+VAV Sys 1 Inlet Node,System Node Temp
+VAV Sys 1 Inlet Node,System Node MassFlowRate
+VAV Sys 1 Outlet Node,System Node Temp
+VAV Sys 1 Outlet Node,System Node MassFlowRate
+VAV Terminal Damper Position
+Fan Electric Power
+Fan Delta Temp
+0

@@ -1,0 +1,30 @@
+eplusout.eso
+eplusout.csv
+Zone/Sys Air Temperature
+Solar Altitude Angle
+Solar Azimuth Angle
+Direct Solar
+Diffuse Solar
+Daylight Illum at Ref Point 1
+Daylight Illum at Ref Point 2
+TDD Transmitted Solar
+TDD Pipe Absorbed Solar
+TDD Heat Gain
+TDD Heat Loss
+TDD Beam Solar Transmittance
+TDD Beam Visible Transmittance
+TDD Diffuse Solar Transmittance
+TDD Diffuse Visible Transmittance
+Dome1,Surface Ext Solar Incident
+Diffuser1,Surface Ext Solar Incident
+Dome2,Surface Ext Solar Incident
+Diffuser2,Surface Ext Solar Incident
+Window Transmitted Solar
+Window Solar Absorbed:All Glass Layers
+Electricity:Zone:Standard Zone
+Electricity:Zone:Daylit Zone
+Standard Zone,Zone/Sys Sensible Cooling Rate
+Standard Zone,Zone/Sys Sensible Heating Rate
+Daylit Zone,Zone/Sys Sensible Cooling Rate
+Daylit Zone,Zone/Sys Sensible Heating Rate
+0

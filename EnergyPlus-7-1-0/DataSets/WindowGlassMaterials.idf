@@ -1,0 +1,105 @@
+! CLEAR          No impurities added to glass mix
+! LOW IRON       Clear glass with low iron content, resulting in higher transmittance
+! TINT           Tinted with inorganic materials to increase absorption
+! BRONZE, GREY, GREEN, BLUE: Tinted the indicated color
+! REF            Reflective -- metallic coating on one surface to increase solar reflection.
+!                REF A: stainless steel coating; REF B: titanium coating;
+!                REF C: pewter coating; REF D: tin-oxide coating;
+!                LO, MID, HI: low, medium and high transmittance coating, respectively.
+! LoE            Low-emissivity metallic coating
+! SPEC SEL       Spectrally selective: part of solar spectrum preferentially transmitted
+! PYR            Pyrolytic coating
+! COATED POLY-xx Coated polyester film with nominal visible transmittance of xx percent
+! Rev            Reversed: Coating is on front side instead of back side
+! ECABS          Electrochromic glass that darkens by becoming more absorptive
+! ECREF          Electrochromic glass that darkens by becoming more reflective
+! BLEACHED       Bleached (lightest) state of electrochromic glass
+! COLORED        Colored (darkest) state of electrochromic glass
+!
+! The values after the name are:
+!   Th:  Thickness (m)
+!   Ts:  Solar Transmittance at Normal Incidence
+!   Rfs: Front Side Solar Reflectance at Normal Incidence
+!   Rbs: Back Side Solar Reflectance at Normal Incidence
+!   Tv:  Visible Transmittance at Normal Incidence
+!   Rfv: Front Side Visible Reflectance at Normal Incidence
+!   Rbv: Back Side Visible Reflectance at Normal Incidence
+!   Tir: Infrared Transmittance at Normal Incidence
+!   Ef:  Front Side Infrared Hemispherical Emissivity
+!   Eb:  Back Side Infrared Hemispherical Emissivity
+!   Con: Conductivity {W/m-K}
+! where
+!   "Front" is side of glass furthest from zone window is defined in
+!   "Back" is side of glass closest to zone window is defined in
+!
+! ID is the identification number in the WINDOW 4 glass library
+!
+! All solar and visible transmittance and reflectance values are spectral average values
+!
+!                    Name                                         Th   Ts   Rfs  Rbs  Tv   Rfv  Rbv Tir Ef  Eb Con
+
+WindowMaterial:Glazing,CLEAR 2.5MM,SpectralAverage,              ,.0025,.850,.075,.075,.901,.081,.081,.0,.84,.84,.9;  ! ID 1
+WindowMaterial:Glazing,CLEAR 3MM,SpectralAverage,                 ,.003,.837,.075,.075,.898,.081,.081,.0,.84,.84,.9;  ! ID 2
+WindowMaterial:Glazing,CLEAR 6MM,SpectralAverage,                 ,.006,.775,.071,.071,.881,.080,.080,.0,.84,.84,.9;  ! ID 3
+WindowMaterial:Glazing,CLEAR 12MM,SpectralAverage,                ,.012,.653,.064,.064,.841,.077,.077,.0,.84,.84,.9;  ! ID 4
+WindowMaterial:Glazing,BRONZE 3MM,SpectralAverage,                ,.003,.645,.062,.062,.685,.065,.065,.0,.84,.84,.9;  ! ID 5
+WindowMaterial:Glazing,BRONZE 6MM,SpectralAverage,                ,.006,.482,.054,.054,.534,.057,.057,.0,.84,.84,.9;  ! ID 6
+WindowMaterial:Glazing,BRONZE 10MM,SpectralAverage,               ,.010,.326,.048,.048,.379,.050,.050,.0,.84,.84,.9;  ! ID 7
+WindowMaterial:Glazing,GREY 3MM,SpectralAverage,                  ,.003,.626,.061,.061,.611,.061,.061,.0,.84,.84,.9;  ! ID 8
+WindowMaterial:Glazing,GREY 6MM,SpectralAverage,                  ,.006,.455,.053,.053,.431,.052,.052,.0,.84,.84,.9;  ! ID 9
+WindowMaterial:Glazing,GREY 12MM,SpectralAverage,                 ,.012,.217,.044,.044,.187,.045,.045,.0,.84,.84,.9;  ! ID 10
+WindowMaterial:Glazing,GREEN 3MM,SpectralAverage,                 ,.003,.635,.063,.063,.822,.075,.075,.0,.84,.84,.9;  ! ID 11
+WindowMaterial:Glazing,GREEN 6MM,SpectralAverage,                 ,.006,.487,.056,.056,.749,.070,.070,.0,.84,.84,.9;  ! ID 12
+WindowMaterial:Glazing,LOW IRON 2.5MM,SpectralAverage,           ,.0025,.904,.080,.080,.914,.083,.083,.0,.84,.84,.9;  ! ID 13
+WindowMaterial:Glazing,LOW IRON 3MM,SpectralAverage,              ,.003,.899,.079,.079,.913,.082,.082,.0,.84,.84,.9;  ! ID 14
+WindowMaterial:Glazing,LOW IRON 4MM,SpectralAverage,              ,.004,.894,.079,.079,.911,.082,.082,.0,.84,.84,.9;  ! ID 15
+WindowMaterial:Glazing,LOW IRON 5MM,SpectralAverage,              ,.005,.889,.079,.079,.910,.082,.082,.0,.84,.84,.9;  ! ID 16
+WindowMaterial:Glazing,BLUE 6MM,SpectralAverage,                  ,.006,.480,.050,.050,.570,.060,.060,.0,.84,.84,.9;  ! ID 17
+WindowMaterial:Glazing,REF A CLEAR LO 6MM,SpectralAverage,        ,.006,.066,.341,.493,.080,.410,.370,.0,.84,.40,.9;  ! ID 200
+WindowMaterial:Glazing,REF A CLEAR MID 6MM,SpectralAverage,       ,.006,.110,.270,.430,.140,.310,.350,.0,.84,.47,.9;  ! ID 201
+WindowMaterial:Glazing,REF A CLEAR HI 6MM,SpectralAverage,        ,.006,.159,.220,.370,.200,.250,.320,.0,.84,.57,.9;  ! ID 202
+WindowMaterial:Glazing,REF A TINT LO 6MM,SpectralAverage,         ,.006,.040,.150,.470,.050,.170,.370,.0,.84,.41,.9;  ! ID 210
+WindowMaterial:Glazing,REF A TINT MID 6MM,SpectralAverage,        ,.006,.060,.130,.420,.090,.140,.350,.0,.84,.47,.9;  ! ID 211
+WindowMaterial:Glazing,REF A TINT HI 6MM,SpectralAverage,         ,.006,.100,.110,.380,.100,.110,.320,.0,.84,.53,.9;  ! ID 212
+WindowMaterial:Glazing,REF B CLEAR LO 6MM,SpectralAverage,        ,.006,.150,.220,.380,.200,.230,.330,.0,.84,.58,.9;  ! ID 220
+WindowMaterial:Glazing,REF B CLEAR HI 6MM,SpectralAverage,        ,.006,.240,.160,.320,.300,.160,.290,.0,.84,.60,.9;  ! ID 221
+WindowMaterial:Glazing,REF B TINT LO 6MM,SpectralAverage,         ,.006,.040,.130,.420,.050,.090,.280,.0,.84,.41,.9;  ! ID 230
+WindowMaterial:Glazing,REF B TINT MID 6MM,SpectralAverage,        ,.006,.100,.110,.410,.130,.100,.320,.0,.84,.45,.9;  ! ID 231
+WindowMaterial:Glazing,REF B TINT HI 6MM,SpectralAverage,         ,.006,.150,.090,.330,.180,.080,.280,.0,.84,.60,.9;  ! ID 232
+WindowMaterial:Glazing,REF C CLEAR LO 6MM,SpectralAverage,        ,.006,.110,.250,.490,.130,.280,.420,.0,.84,.43,.9;  ! ID 240
+WindowMaterial:Glazing,REF C CLEAR MID 6MM,SpectralAverage,       ,.006,.170,.200,.420,.190,.210,.380,.0,.84,.51,.9;  ! ID 241
+WindowMaterial:Glazing,REF C CLEAR HI 6MM,SpectralAverage,        ,.006,.200,.160,.390,.220,.170,.350,.0,.84,.55,.9;  ! ID 242
+WindowMaterial:Glazing,REF C TINT LO 6MM,SpectralAverage,         ,.006,.070,.130,.490,.080,.130,.420,.0,.84,.43,.9;  ! ID 250
+WindowMaterial:Glazing,REF C TINT MID 6MM,SpectralAverage,        ,.006,.100,.100,.420,.110,.100,.380,.0,.84,.51,.9;  ! ID 251
+WindowMaterial:Glazing,REF C TINT HI 6MM,SpectralAverage,         ,.006,.120,.090,.390,.130,.090,.350,.0,.84,.55,.9;  ! ID 252
+WindowMaterial:Glazing,REF D CLEAR 6MM,SpectralAverage,           ,.006,.429,.308,.379,.334,.453,.505,.0,.84,.82,.9;  ! ID 260
+WindowMaterial:Glazing,REF D TINT 6MM,SpectralAverage,            ,.006,.300,.140,.360,.250,.180,.450,.0,.84,.82,.9;  ! ID 270
+WindowMaterial:Glazing,PYR A CLEAR 3MM,SpectralAverage,           ,.003,.750,.100,.100,.850,.120,.120,.0,.84,.40,.9;  ! ID 300
+WindowMaterial:Glazing,PYR B CLEAR 3MM,SpectralAverage,           ,.003,.740,.090,.100,.820,.110,.120,.0,.84,.20,.9;  ! ID 350
+WindowMaterial:Glazing,PYR B CLEAR 6MM,SpectralAverage,           ,.006,.680,.090,.100,.810,.110,.120,.0,.84,.20,.9;  ! ID 351
+WindowMaterial:Glazing,LoE CLEAR 3MM,SpectralAverage,             ,.003,.630,.190,.220,.850,.056,.079,.0,.84,.10,.9;  ! ID 400
+WindowMaterial:Glazing,LoE CLEAR 3MM Rev,SpectralAverage,         ,.003,.630,.220,.190,.850,.079,.056,.0,.10,.84,.9;  ! 
+WindowMaterial:Glazing,LoE CLEAR 6MM,SpectralAverage,             ,.006,.600,.170,.220,.840,.055,.078,.0,.84,.10,.9;  ! ID 401
+WindowMaterial:Glazing,LoE CLEAR 6MM Rev,SpectralAverage,         ,.006,.600,.220,.170,.840,.078,.055,.0,.10,.84,.9;  ! 
+WindowMaterial:Glazing,LoE TINT 6MM,SpectralAverage,              ,.006,.360,.093,.200,.500,.035,.054,.0,.84,.10,.9;  ! ID 451
+WindowMaterial:Glazing,LoE SPEC SEL CLEAR 3MM,SpectralAverage,    ,.003,.450,.340,.370,.780,.070,.060,.0,.84,.03,.9;  ! ID 500
+WindowMaterial:Glazing,LoE SPEC SEL CLEAR 6MM,SpectralAverage,    ,.006,.430,.300,.420,.770,.070,.060,.0,.84,.03,.9;  ! ID 501
+WindowMaterial:Glazing,LoE SPEC SEL CLEAR 6MM Rev,SpectralAverage,,.006,.430,.420,.300,.770,.060,.070,.0,.03,.84,.9;  ! 
+WindowMaterial:Glazing,LoE SPEC SEL TINT 6MM,SpectralAverage,     ,.006,.260,.140,.410,.460,.060,.040,.0,.84,.03,.9;  ! ID 550
+WindowMaterial:Glazing,COATED POLY-88,SpectralAverage,          ,.00051,.656,.249,.227,.868,.064,.060,.0,.136,.720,.14;  ! ID 600
+WindowMaterial:Glazing,COATED POLY-77,SpectralAverage,          ,.00051,.504,.402,.398,.766,.147,.167,.0,.075,.720,.14;  ! ID 601
+WindowMaterial:Glazing,COATED POLY-66,SpectralAverage,          ,.00051,.403,.514,.515,.658,.256,.279,.0,.057,.720,.14;  ! ID 602
+WindowMaterial:Glazing,COATED POLY-55,SpectralAverage,          ,.00051,.320,.582,.593,.551,.336,.375,.0,.046,.720,.14;  ! ID 603
+WindowMaterial:Glazing,COATED POLY-44,SpectralAverage,          ,.00051,.245,.626,.641,.439,.397,.453,.0,.037,.720,.14;  ! ID 604
+WindowMaterial:Glazing,COATED POLY-33,SpectralAverage,          ,.00051,.178,.739,.738,.330,.566,.591,.0,.035,.720,.14;  ! ID 605
+WindowMaterial:Glazing,ECABS-1 BLEACHED 6MM,SpectralAverage,      ,.006,.814,.086,.086,.847,.099,.099,.0,.84,.84,.9;  ! ID 700
+WindowMaterial:Glazing,ECABS-1 COLORED 6MM,SpectralAverage,       ,.006,.111,.179,.179,.128,.081,.081,.0,.84,.84,.9;  ! ID 701
+WindowMaterial:Glazing,ECREF-1 BLEACHED 6MM,SpectralAverage,      ,.006,.694,.168,.168,.818,.110,.110,.0,.84,.84,.9;  ! ID 702
+WindowMaterial:Glazing,ECREF-1 COLORED 6MM,SpectralAverage,       ,.006,.099,.219,.219,.155,.073,.073,.0,.84,.84,.9;  ! ID 703
+WindowMaterial:Glazing,ECABS-2 BLEACHED 6MM,SpectralAverage,      ,.006,.814,.086,.086,.847,.099,.099,.0,.84,.10,.9;  ! ID 704
+WindowMaterial:Glazing,ECABS-2 COLORED 6MM,SpectralAverage,       ,.006,.111,.179,.179,.128,.081,.081,.0,.84,.10,.9;  ! ID 705
+WindowMaterial:Glazing,ECREF-2 BLEACHED 6MM,SpectralAverage,      ,.006,.694,.168,.168,.818,.110,.110,.0,.84,.10,.9;  ! ID 706
+WindowMaterial:Glazing,ECREF-2 COLORED 6MM,SpectralAverage,       ,.006,.099,.219,.219,.155,.073,.073,.0,.84,.10,.9;  ! ID 707
+
+! End of Reference Data Set for Window Glass
+

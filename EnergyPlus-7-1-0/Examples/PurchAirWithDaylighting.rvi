@@ -1,0 +1,35 @@
+eplusout.eso
+eplusout.csv
+Outdoor Dry Bulb
+Zone/Sys Air Temperature
+Zone/Sys Sensible Cooling Energy
+Zone/Sys Sensible Heating Energy
+Daylight Illum at Ref Point 1
+Glare Index at Ref Point 1
+Ltg Power Multiplier from Daylighting
+Fraction of Time Shading Device Is On
+System Node Temp
+System Node MassFlowRate
+System Node Humidity Ratio
+System Node Setpoint Temp
+System Node Setpoint Temp Hi
+System Node Setpoint Temp Lo
+System Node Setpoint Humidity Ratio
+System Node Humidity Ratio Min
+System Node Humidity Ratio Max
+System Node Relative Humidity
+System Node Pressure
+System Node Volume Flow Rate Standard Density
+System Node Volume Flow Rate Current Density
+System Node Enthalpy
+System Node Wetbulb Temp
+System Node TempMin
+System Node TempMax
+System Node MassFlowRateMin
+System Node MassFlowRateMax
+System Node MassFlowRateMinAvail
+System Node MassFlowRateMaxAvail
+System Node MassFlowRateSetPoint
+System Node Quality
+System Node Height
+0

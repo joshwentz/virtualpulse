@@ -1,0 +1,27 @@
+eplusout.eso
+eplusout.csv
+Outdoor Dry Bulb
+Zone/Sys Air Temperature
+Total Water Heating Coil Rate
+Total Water Cooling Coil Rate
+Water Heater Runtime Fraction
+Water Heater Part Load Ratio
+Water Heater Electric Consumption Rate
+Water Heater Source Inlet Temperature
+Water Heater Source Outlet Temperature
+Water Heater Source Flow Rate
+Water Heater Source Rate
+Water Heater Use Inlet Temperature
+Water Heater Use Outlet Temperature
+Water Heater Use Flow Rate
+Water Heater Use Rate
+Water Heater Tank Temperature
+DX Coil Total Water Heating Rate
+DX Coil Water Heating Electric Power
+Heat Pump Water Heater Compressor Part-Load Ratio
+Fan Electric Power
+DX Coil Total Cooling Rate
+DX Coil Crankcase Heater Power
+Heat Pump Water Heater On-Cycle Parasitic Electric Power
+Heat Pump Water Heater Off-Cycle Parasitic Electric Power
+0
